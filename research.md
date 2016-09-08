@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: Research
+permalink: /research/
 ---
 
 <span style="color:red;">Webpage under development</span>
