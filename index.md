@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
+<span style="color:red;">Webpage under development!</span>
 
-Here's how you link to a [webpage in your site](/teaching/), and
-here's a link to an [external site](https://www.google.com)
+<img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
 
-
-![Me]({{ site.url }}/assets/image20150508_104736622.jpg)
+Emily Jane McTavish  
+Assistant Professor, Life and Environmental Sciences  
+School of Natural Sciences  
+University of California, Merced  
+5200 N. Lake Rd, Merced CA 95343  
+209-228-4489 

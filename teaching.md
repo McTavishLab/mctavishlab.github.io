@@ -4,5 +4,4 @@ title: Teaching
 permalink: /teaching/
 ---
 
-* Here is a bulleted teaching point!
-* Here's another! 
+<span style="color:red;">Webpage under development!</span>
