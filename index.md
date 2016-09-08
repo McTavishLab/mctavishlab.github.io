@@ -3,6 +3,15 @@ layout: default
 ---
 <span style="color:red;">Webpage under development!</span>
 
+## I'm recruiting graduate students and postdocs:
+Prospective graduate students should contact me, and apply through UC Merced's
+Quantitative and Systems Biology
+<a href="http://qsb.ucmerced.edu/">(QSB)</a>
+program.
+
+
+
+
 <img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
 
 Emily Jane McTavish  
