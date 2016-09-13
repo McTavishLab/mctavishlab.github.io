@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-<span style="color:red;">Webpage under development!</span>
+<span style="color:red;">Webpage under development</span>
 
-## I'm recruiting graduate students and postdocs:
-Prospective graduate students should contact me, and apply through UC Merced's
+## I'm recruiting graduate students and postdocs!
+Contact me for more information.  
+Prospective graduate students should apply through UC Merced's
 Quantitative and Systems Biology
 <a href="http://qsb.ucmerced.edu/">(QSB)</a>
 program.
