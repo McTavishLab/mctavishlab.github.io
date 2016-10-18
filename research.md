@@ -8,7 +8,7 @@ permalink: /research/
 
 I'm working on phylogenetic methods and genomics.
 My focus is on developing efficient methods that take advantage 
-of the novel information in genomic data, rather than scaling up old approaches.
+of the novel information in genomic data.
 
 ## Current projects:
 
