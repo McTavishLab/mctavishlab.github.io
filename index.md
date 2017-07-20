@@ -3,7 +3,7 @@ layout: default
 ---
 <span style="color:red;">Webpage under development</span>
 
-## I'm recruiting graduate students and postdocs!
+## I'm recruiting graduate students!
 Contact me for more information,  ejmctavish at ucmerced.edu  
 Prospective graduate students should apply through UC Merced's
 Quantitative and Systems Biology
