@@ -1,0 +1,288 @@
+#JC
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#JC+I
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#JC+G
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#JC+I+G
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#F81
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#F81+I
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#F81+G
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#F81+I+G
+datatype = nucleotide
+ratematrix = 1rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#K80
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#K80+I
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#K80+G
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#K80+I+G
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#HKY
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#HKY+I
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#HKY+G
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#HKY+I+G
+datatype = nucleotide
+ratematrix = 2rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#SYM
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#SYM+I
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = equal
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#SYM+G
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#SYM+I+G
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = equal
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#GTR
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#GTR+I
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#GTR+G
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#GTR+I+G
+datatype = nucleotide
+ratematrix = 6rate
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#TVM
+datatype = nucleotide
+ratematrix = (0 1 2 3 1 4) 
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#TVM+I
+datatype = nucleotide
+ratematrix = (0 1 2 3 1 4) 
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#TVM+G
+datatype = nucleotide
+ratematrix = (0 1 2 3 1 4) 
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#TVM+I+G
+datatype = nucleotide
+ratematrix = (0 1 2 3 1 4) 
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#TrN
+datatype = nucleotide
+ratematrix = (0 1 0 0 1 0)
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#TrN+I
+datatype = nucleotide
+ratematrix = (0 1 0 0 1 0)
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#TrN+G
+datatype = nucleotide
+ratematrix = (0 1 0 0 1 0)
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#TrN+I+G
+datatype = nucleotide
+ratematrix = (0 1 0 0 1 0)
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+
+#K81uf
+datatype = nucleotide
+ratematrix = (0 1 2 2 1 0)
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = none
+
+#K81uf+I
+datatype = nucleotide
+ratematrix = (0 1 2 2 1 0)
+statefrequencies = estimate
+ratehetmodel = none
+numratecats = 1
+invariantsites = estimate
+
+#K81uf+G
+datatype = nucleotide
+ratematrix = (0 1 2 2 1 0)
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = none
+
+#K81uf+I+G
+datatype = nucleotide
+ratematrix = (0 1 2 2 1 0)
+statefrequencies = estimate
+ratehetmodel = gamma
+numratecats = 4
+invariantsites = estimate
+

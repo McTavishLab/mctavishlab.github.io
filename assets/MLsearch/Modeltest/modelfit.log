@@ -1,0 +1,1893 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Jul 28 13:55:22 2008
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken randomly; initial seed = 0
+  Distance measure = Jukes-Cantor
+  (Tree is unrooted)
+
+   Tree found by neighbor-joining method stored in tree buffer
+   Time used = <1 sec (CPU time = 0.00 sec)
+
+***** BEGIN TESTING 56 MODELS OF EVOLUTION ***** 
+
+Optimality criterion set to likelihood.
+
+** Model 1 of 56 * Calculating JC **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to the JC69 model
+    Number of distinct data patterns under this model = 471
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 11397.73351
+
+Time used to compute likelihoods = <1 sec (CPU time = 0.01 sec)
+
+** Model 2 of 56 * Calculating JC+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to the JC69+I model
+    Number of distinct data patterns under this model = 471
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10695.71472
+  Estimated value of proportion of invariable sites = 0.521809
+
+Time used to compute likelihoods = <1 sec (CPU time = 0.30 sec)
+
+** Model 3 of 56 * Calculating JC+GÊ**
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the JC69+G model
+    Number of distinct data patterns under this model = 471
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10583.04412
+  Estimated value of gamma shape parameter = 0.344591
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.58 sec)
+
+** Model 4 of 56 * Calculating JC+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the JC69+G+I model
+    Number of distinct data patterns under this model = 471
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10557.38266
+  Estimated value of proportion of invariable sites = 0.411562
+  Estimated value of gamma shape parameter = 1.076291
+
+Time used to compute likelihoods = 4 sec (CPU time = 4.54 sec)
+
+** Model 5 of 56 * Calculating F81 **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to the F81 model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 11385.91381
+  Estimated base frequencies = A:0.227239 C:0.286661 G:0.248614 T:0.237486
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.78 sec)
+
+** Model 6 of 56 * Calculating F81+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to the F81+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10674.41659
+  Estimated base frequencies = A:0.223096 C:0.301996 G:0.239729 T:0.235179
+  Estimated value of proportion of invariable sites = 0.522341
+
+Time used to compute likelihoods = 2 sec (CPU time = 1.93 sec)
+
+** Model 7 of 56 * Calculating F81+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the F81+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10564.52054
+  Estimated base frequencies = A:0.221999 C:0.297783 G:0.236097 T:0.244121
+  Estimated value of gamma shape parameter = 0.341213
+
+Time used to compute likelihoods = 4 sec (CPU time = 3.70 sec)
+
+** Model 8 of 56 * Calculating F81+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 1
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the F81+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10538.99324
+  Estimated base frequencies = A:0.223271 C:0.298290 G:0.236421 T:0.242019
+  Estimated value of proportion of invariable sites = 0.416566
+  Estimated value of gamma shape parameter = 1.106267
+
+Time used to compute likelihoods = 6 sec (CPU time = 5.94 sec)
+
+** Model 9 of 56 * Calculating K80 **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2
+    Transition/transversion ratio estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to the K80(K2P) model
+    Number of distinct data patterns under this model = 494
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10827.94423
+  Estimated ti/tv ratio = 2.654119 (kappa = 5.308238)
+
+Time used to compute likelihoods = <1 sec (CPU time = 0.09 sec)
+
+** Model 10 of 56 * Calculating K80+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2
+    Transition/transversion ratio estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to the K80(K2P)+I model
+    Number of distinct data patterns under this model = 494
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10105.53216
+  Estimated ti/tv ratio = 2.899901 (kappa = 5.799803)
+  Estimated value of proportion of invariable sites = 0.522920
+
+Time used to compute likelihoods = 3 sec (CPU time = 2.38 sec)
+
+** Model 11 of 56 * Calculating K80+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2
+    Transition/transversion ratio estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the K80(K2P)+G model
+    Number of distinct data patterns under this model = 494
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9983.84048
+  Estimated ti/tv ratio = 3.060652 (kappa = 6.121304)
+  Estimated value of gamma shape parameter = 0.331916
+
+Time used to compute likelihoods = 4 sec (CPU time = 3.75 sec)
+
+** Model 12 of 56 * Calculating K80+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2
+    Transition/transversion ratio estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the K80(K2P)+G+I model
+    Number of distinct data patterns under this model = 494
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9955.72657
+  Estimated ti/tv ratio = 3.092787 (kappa = 6.185574)
+  Estimated value of proportion of invariable sites = 0.412933
+  Estimated value of gamma shape parameter = 1.002910
+
+Time used to compute likelihoods = 6 sec (CPU time = 6.32 sec)
+
+** Model 13 of 56 * Calculating HKY **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2 (HKY85 variant)
+    Transition/transversion ratio estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to the HKY85 model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10813.86851
+  Estimated base frequencies = A:0.222183 C:0.289044 G:0.242167 T:0.246607
+  Estimated ti/tv ratio = 2.680067 (kappa = 5.329242)
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.14 sec)
+
+** Model 14 of 56 * Calculating HKY+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2 (HKY85 variant)
+    Transition/transversion ratio estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to the HKY85+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10087.08396
+  Estimated base frequencies = A:0.233008 C:0.297766 G:0.243456 T:0.225770
+  Estimated ti/tv ratio = 2.875766 (kappa = 5.787224)
+  Estimated value of proportion of invariable sites = 0.522843
+
+Time used to compute likelihoods = 3 sec (CPU time = 2.63 sec)
+
+** Model 15 of 56 * Calculating HKY+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2 (HKY85 variant)
+    Transition/transversion ratio estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the HKY85+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9976.13289
+  Estimated base frequencies = A:0.237668 C:0.284083 G:0.240506 T:0.237744
+  Estimated ti/tv ratio = 3.025485 (kappa = 6.054000)
+  Estimated value of gamma shape parameter = 0.334573
+
+Time used to compute likelihoods = 6 sec (CPU time = 5.67 sec)
+
+** Model 16 of 56 * Calculating HKY+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 2 (HKY85 variant)
+    Transition/transversion ratio estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the HKY85+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9945.93526
+  Estimated base frequencies = A:0.238459 C:0.288654 G:0.237810 T:0.235077
+  Estimated ti/tv ratio = 3.061481 (kappa = 6.130560)
+  Estimated value of proportion of invariable sites = 0.419681
+  Estimated value of gamma shape parameter = 1.050534
+
+Time used to compute likelihoods = 8 sec (CPU time = 7.48 sec)
+
+** Model 17 of 56 * Calculating TrNef **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10802.58609
+  Estimated R-matrix:
+                 -             1     4.3025721             1
+                 1             -             1     6.4345496
+         4.3025721             1             -             1
+                 1     6.4345496             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.93 sec)
+
+** Model 18 of 56 * Calculating TrNef+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10100.79156
+  Estimated R-matrix:
+                 -             1      5.222385             1
+                 1             -             1     6.3176724
+          5.222385             1             -             1
+                 1     6.3176724             1             -
+  Estimated value of proportion of invariable sites = 0.521773
+
+Time used to compute likelihoods = 2 sec (CPU time = 2.07 sec)
+
+** Model 19 of 56 * Calculating TrNef+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9979.10132
+  Estimated R-matrix:
+                 -             1     5.3083663             1
+                 1             -             1     6.9242547
+         5.3083663             1             -             1
+                 1     6.9242547             1             -
+  Estimated value of gamma shape parameter = 0.340472
+
+Time used to compute likelihoods = 3 sec (CPU time = 3.36 sec)
+
+** Model 20 of 56 * Calculating TrNef+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9948.66777
+  Estimated R-matrix:
+                 -             1     5.2062895             1
+                 1             -             1     7.1853507
+         5.2062895             1             -             1
+                 1     7.1853507             1             -
+  Estimated value of proportion of invariable sites = 0.405208
+  Estimated value of gamma shape parameter = 0.968306
+
+Time used to compute likelihoods = 6 sec (CPU time = 5.53 sec)
+
+** Model 21 of 56 * Calculating TrN **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model (this is the TN93 model)
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10796.36331
+  Estimated base frequencies = A:0.244033 C:0.263224 G:0.266418 T:0.226325
+  Estimated R-matrix:
+                 -             1     4.2082454             1
+                 1             -             1     6.5347541
+         4.2082454             1             -             1
+                 1     6.5347541             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.01 sec)
+
+** Model 22 of 56 * Calculating TrN+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model (this is the TN93+I model)
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10084.80077
+  Estimated base frequencies = A:0.240444 C:0.288627 G:0.252257 T:0.218673
+  Estimated R-matrix:
+                 -             1     5.2895251             1
+                 1             -             1     6.2730209
+         5.2895251             1             -             1
+                 1     6.2730209             1             -
+  Estimated value of proportion of invariable sites = 0.521958
+
+Time used to compute likelihoods = 5 sec (CPU time = 4.77 sec)
+
+** Model 23 of 56 * Calculating TrN+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model (this is the TN93+G model)
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9974.29464
+  Estimated base frequencies = A:0.244822 C:0.275031 G:0.249217 T:0.230930
+  Estimated R-matrix:
+                 -             1     5.4122173             1
+                 1             -             1       6.73179
+         5.4122173             1             -             1
+                 1       6.73179             1             -
+  Estimated value of gamma shape parameter = 0.340628
+
+Time used to compute likelihoods = 4 sec (CPU time = 4.38 sec)
+
+** Model 24 of 56 * Calculating TrN+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b a
+                                 C a - a e
+                                 G b a - a
+                                 T a e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model (this is the TN93+G+I model)
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9942.19448
+  Estimated base frequencies = A:0.248447 C:0.276002 G:0.250501 T:0.225051
+  Estimated R-matrix:
+                 -             1     5.2248514             1
+                 1             -             1     7.1203973
+         5.2248514             1             -             1
+                 1     7.1203973             1             -
+  Estimated value of proportion of invariable sites = 0.413840
+  Estimated value of gamma shape parameter = 1.021670
+
+Time used to compute likelihoods = 9 sec (CPU time = 8.61 sec)
+
+** Model 25 of 56 * Calculating K3P **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10822.53317
+  Estimated R-matrix:
+                 -             1     4.5642619    0.71917952
+                 1             -    0.71917952     4.5642619
+         4.5642619    0.71917952             -             1
+        0.71917952     4.5642619             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.89 sec)
+
+** Model 26 of 56 * Calculating K3P+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10100.25922
+  Estimated R-matrix:
+                 -             1     4.9014012    0.69111763
+                 1             -    0.69111763     4.9014012
+         4.9014012    0.69111763             -             1
+        0.69111763     4.9014012             1             -
+  Estimated value of proportion of invariable sites = 0.522898
+
+Time used to compute likelihoods = 2 sec (CPU time = 1.81 sec)
+
+** Model 27 of 56 * Calculating K3P+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9978.40169
+  Estimated R-matrix:
+                 -             1     5.1198045     0.6741381
+                 1             -     0.6741381     5.1198045
+         5.1198045     0.6741381             -             1
+         0.6741381     5.1198045             1             -
+  Estimated value of gamma shape parameter = 0.331819
+
+Time used to compute likelihoods = 3 sec (CPU time = 2.89 sec)
+
+** Model 28 of 56 * Calculating K3P+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9950.51442
+  Estimated R-matrix:
+                 -             1     5.1720797    0.67404205
+                 1             -    0.67404205     5.1720797
+         5.1720797    0.67404205             -             1
+        0.67404205     5.1720797             1             -
+  Estimated value of proportion of invariable sites = 0.412742
+  Estimated value of gamma shape parameter = 1.003272
+
+Time used to compute likelihoods = 5 sec (CPU time = 5.46 sec)
+
+** Model 29 of 56 * Calculating K3Puf **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10808.54446
+  Estimated base frequencies = A:0.222636 C:0.289073 G:0.241734 T:0.246557
+  Estimated R-matrix:
+                 -             1     4.5883968    0.72110734
+                 1             -    0.72110734     4.5883968
+         4.5883968    0.72110734             -             1
+        0.72110734     4.5883968             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.93 sec)
+
+** Model 30 of 56 * Calculating K3Puf+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10081.94931
+  Estimated base frequencies = A:0.232715 C:0.297520 G:0.243842 T:0.225923
+  Estimated R-matrix:
+                 -             1     4.9037241     0.6945988
+                 1             -     0.6945988     4.9037241
+         4.9037241     0.6945988             -             1
+         0.6945988     4.9037241             1             -
+  Estimated value of proportion of invariable sites = 0.522791
+
+Time used to compute likelihoods = 2 sec (CPU time = 2.14 sec)
+
+** Model 31 of 56 * Calculating K3Puf+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9970.90075
+  Estimated base frequencies = A:0.237896 C:0.283626 G:0.240400 T:0.238078
+  Estimated R-matrix:
+                 -             1     5.0849278    0.67969935
+                 1             -    0.67969935     5.0849278
+         5.0849278    0.67969935             -             1
+        0.67969935     5.0849278             1             -
+  Estimated value of gamma shape parameter = 0.334533
+
+Time used to compute likelihoods = 5 sec (CPU time = 4.52 sec)
+
+** Model 32 of 56 * Calculating K3Puf+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 3 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c b
+                                 G b c - a
+                                 T c b a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9940.96829
+  Estimated base frequencies = A:0.238389 C:0.288135 G:0.237948 T:0.235528
+  Estimated R-matrix:
+                 -             1     5.1509588     0.6805499
+                 1             -     0.6805499     5.1509588
+         5.1509588     0.6805499             -             1
+         0.6805499     5.1509588             1             -
+  Estimated value of proportion of invariable sites = 0.419357
+  Estimated value of gamma shape parameter = 1.050500
+
+Time used to compute likelihoods = 7 sec (CPU time = 6.66 sec)
+
+** Model 33 of 56 * Calculating TIMef **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10797.16441
+  Estimated R-matrix:
+                 -             1     3.6984548    0.71872104
+                 1             -    0.71872104     5.5311615
+         3.6984548    0.71872104             -             1
+        0.71872104     5.5311615             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 0.78 sec)
+
+** Model 34 of 56 * Calculating TIMef+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10095.51891
+  Estimated R-matrix:
+                 -             1     4.4148145    0.69161852
+                 1             -    0.69161852     5.3403422
+         4.4148145    0.69161852             -             1
+        0.69161852     5.3403422             1             -
+  Estimated value of proportion of invariable sites = 0.521750
+
+Time used to compute likelihoods = 2 sec (CPU time = 1.96 sec)
+
+** Model 35 of 56 * Calculating TIMef+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9973.71836
+  Estimated R-matrix:
+                 -             1     4.4477462    0.67558992
+                 1             -    0.67558992     5.7903666
+         4.4477462    0.67558992             -             1
+        0.67558992     5.7903666             1             -
+  Estimated value of gamma shape parameter = 0.340437
+
+Time used to compute likelihoods = 3 sec (CPU time = 3.62 sec)
+
+** Model 36 of 56 * Calculating TIMef+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9943.45756
+  Estimated R-matrix:
+                 -             1     4.3538165    0.67403844
+                 1             -    0.67403844     6.0068532
+         4.3538165    0.67403844             -             1
+        0.67403844     6.0068532             1             -
+  Estimated value of proportion of invariable sites = 0.405006
+  Estimated value of gamma shape parameter = 0.968492
+
+Time used to compute likelihoods = 7 sec (CPU time = 6.47 sec)
+
+** Model 37 of 56 * Calculating TIM **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10791.01791
+  Estimated base frequencies = A:0.244568 C:0.263279 G:0.265901 T:0.226253
+  Estimated R-matrix:
+                 -             1     3.6219406    0.72053598
+                 1             -    0.72053598     5.6248372
+         3.6219406    0.72053598             -             1
+        0.72053598     5.6248372             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.02 sec)
+
+** Model 38 of 56 * Calculating TIM+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10079.62304
+  Estimated base frequencies = A:0.240170 C:0.288337 G:0.252773 T:0.218720
+  Estimated R-matrix:
+                 -             1     4.4762244    0.69385909
+                 1             -    0.69385909     5.3169665
+         4.4762244    0.69385909             -             1
+        0.69385909     5.3169665             1             -
+  Estimated value of proportion of invariable sites = 0.521892
+
+Time used to compute likelihoods = 7 sec (CPU time = 6.88 sec)
+
+** Model 39 of 56 * Calculating TIM+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9969.06651
+  Estimated base frequencies = A:0.245060 C:0.274669 G:0.249088 T:0.231183
+  Estimated R-matrix:
+                 -             1     4.5470188     0.6798265
+                 1             -     0.6798265     5.6529255
+         4.5470188     0.6798265             -             1
+         0.6798265     5.6529255             1             -
+  Estimated value of gamma shape parameter = 0.340645
+
+Time used to compute likelihoods = 8 sec (CPU time = 7.41 sec)
+
+** Model 40 of 56 * Calculating TIM+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 4 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - c e
+                                 G b c - a
+                                 T c e a -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9937.17672
+  Estimated base frequencies = A:0.248457 C:0.275525 G:0.250723 T:0.225296
+  Estimated R-matrix:
+                 -             1     4.3818785    0.67910471
+                 1             -    0.67910471     5.9826929
+         4.3818785    0.67910471             -             1
+        0.67910471     5.9826929             1             -
+  Estimated value of proportion of invariable sites = 0.413517
+  Estimated value of gamma shape parameter = 1.021594
+
+Time used to compute likelihoods = 9 sec (CPU time = 8.89 sec)
+
+** Model 41 of 56 * Calculating TVMef **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10810.12708
+  Estimated R-matrix:
+                 -     1.8581022     6.4845222     1.0073101
+         1.8581022             -     1.0426967     6.4845222
+         6.4845222     1.0426967             -             1
+         1.0073101     6.4845222             1             -
+
+Time used to compute likelihoods = <1 sec (CPU time = 0.84 sec)
+
+** Model 42 of 56 * Calculating TVMef+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10093.98997
+  Estimated R-matrix:
+                 -     1.6018199     6.4558302    0.94397164
+         1.6018199             -    0.88621934     6.4558302
+         6.4558302    0.88621934             -             1
+        0.94397164     6.4558302             1             -
+  Estimated value of proportion of invariable sites = 0.522515
+
+Time used to compute likelihoods = 4 sec (CPU time = 3.46 sec)
+
+** Model 43 of 56 * Calculating TVMef+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9965.74155
+  Estimated R-matrix:
+                 -     2.0135535      7.627978    0.88207887
+         2.0135535             -     1.1509908      7.627978
+          7.627978     1.1509908             -             1
+        0.88207887      7.627978             1             -
+  Estimated value of gamma shape parameter = 0.331358
+
+Time used to compute likelihoods = 4 sec (CPU time = 4.17 sec)
+
+** Model 44 of 56 * Calculating TVMef+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9939.60729
+  Estimated R-matrix:
+                 -     1.9231387     7.5139581    0.86009309
+         1.9231387             -     1.1227107     7.5139581
+         7.5139581     1.1227107             -             1
+        0.86009309     7.5139581             1             -
+  Estimated value of proportion of invariable sites = 0.405341
+  Estimated value of gamma shape parameter = 0.962399
+
+Time used to compute likelihoods = 9 sec (CPU time = 8.90 sec)
+
+** Model 45 of 56 * Calculating TVM **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10797.24095
+  Estimated base frequencies = A:0.216381 C:0.281205 G:0.249134 T:0.253280
+  Estimated R-matrix:
+                 -     1.8490743     6.5102184     1.0818492
+         1.8490743             -    0.97601281     6.5102184
+         6.5102184    0.97601281             -             1
+         1.0818492     6.5102184             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.19 sec)
+
+** Model 46 of 56 * Calculating TVM+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10076.84302
+  Estimated base frequencies = A:0.226042 C:0.295250 G:0.251184 T:0.227524
+  Estimated R-matrix:
+                 -     1.4822852     6.1934885     1.0207911
+         1.4822852             -    0.77289982     6.1934885
+         6.1934885    0.77289982             -             1
+         1.0207911     6.1934885             1             -
+  Estimated value of proportion of invariable sites = 0.522299
+
+Time used to compute likelihoods = 11 sec (CPU time = 10.04 sec)
+
+** Model 47 of 56 * Calculating TVM+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9961.65249
+  Estimated base frequencies = A:0.227359 C:0.268791 G:0.252576 T:0.251274
+  Estimated R-matrix:
+                 -     2.0602502     7.6546499    0.98230844
+         2.0602502             -     1.0689488     7.6546499
+         7.6546499     1.0689488             -             1
+        0.98230844     7.6546499             1             -
+  Estimated value of gamma shape parameter = 0.334098
+
+Time used to compute likelihoods = 9 sec (CPU time = 8.85 sec)
+
+** Model 48 of 56 * Calculating TVM+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 5 (restriction of 6ST GTR model)
+    Substitution classification:   A C G T
+                                 A - a b c
+                                 C a - d b
+                                 G b d - e
+                                 T c b e -
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9934.63224
+  Estimated base frequencies = A:0.229090 C:0.275872 G:0.248788 T:0.246250
+  Estimated R-matrix:
+                 -     1.8439256     7.2847628    0.94011339
+         1.8439256             -    0.99148596     7.2847628
+         7.2847628    0.99148596             -             1
+        0.94011339     7.2847628             1             -
+  Estimated value of proportion of invariable sites = 0.411622
+  Estimated value of gamma shape parameter = 1.012026
+
+Time used to compute likelihoods = 13 sec (CPU time = 13.05 sec)
+
+** Model 49 of 56 * Calculating SYM **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10784.67225
+  Estimated R-matrix:
+                 -     1.8626799     5.2602512     1.0022119
+         1.8626799             -     1.0492806     7.8720948
+         5.2602512     1.0492806             -             1
+         1.0022119     7.8720948             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.25 sec)
+
+** Model 50 of 56 * Calculating SYM+I **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to a submodel of the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10089.17343
+  Estimated R-matrix:
+                 -     1.6047987     5.8163719    0.94504885
+         1.6047987             -    0.88861722     7.0474315
+         5.8163719    0.88861722             -             1
+        0.94504885     7.0474315             1             -
+  Estimated value of proportion of invariable sites = 0.521345
+
+Time used to compute likelihoods = 4 sec (CPU time = 3.52 sec)
+
+** Model 51 of 56 * Calculating SYM+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9960.82393
+  Estimated R-matrix:
+                 -     2.0359952     6.6504049    0.87940819
+         2.0359952             -     1.1706262     8.6973281
+         6.6504049     1.1706262             -             1
+        0.87940819     8.6973281             1             -
+  Estimated value of gamma shape parameter = 0.339552
+
+Time used to compute likelihoods = 9 sec (CPU time = 9.09 sec)
+
+** Model 52 of 56 * Calculating SYM+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Assumed nucleotide frequencies (set by user):
+      A=0.25000  C=0.25000  G=0.25000  T=0.25000
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to a submodel of the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9932.55436
+  Estimated R-matrix:
+                 -     1.9335302     6.3429816    0.85711188
+         1.9335302             -     1.1286254     8.7471892
+         6.3429816     1.1286254             -             1
+        0.85711188     8.7471892             1             -
+  Estimated value of proportion of invariable sites = 0.397859
+  Estimated value of gamma shape parameter = 0.933491
+
+Time used to compute likelihoods = 14 sec (CPU time = 13.66 sec)
+
+** Model 53 of 56 * Calculating GTR **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = equal
+    These settings correspond to the GTR model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10778.60473
+  Estimated base frequencies = A:0.237042 C:0.255554 G:0.276068 T:0.231336
+  Estimated R-matrix:
+                 -     1.9072998     5.1869816     1.0944331
+         1.9072998             -    0.99548156     8.1669044
+         5.1869816    0.99548156             -             1
+         1.0944331     8.1669044             1             -
+
+Time used to compute likelihoods = 1 sec (CPU time = 1.68 sec)
+
+** Model 54 of 56 * Calculating GTR+IÊ**
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = equal
+    These settings correspond to the GTR+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 10074.08920
+  Estimated base frequencies = A:0.233156 C:0.285323 G:0.261938 T:0.219584
+  Estimated R-matrix:
+                 -     1.5082933     5.6642047     1.0355018
+         1.5082933             -    0.77677046     6.8331515
+         5.6642047    0.77677046             -             1
+         1.0355018     6.8331515             1             -
+  Estimated value of proportion of invariable sites = 0.521222
+
+Time used to compute likelihoods = 5 sec (CPU time = 4.84 sec)
+
+** Model 55 of 56 * Calculating GTR+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = none
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the GTR+G model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9959.13148
+  Estimated base frequencies = A:0.235472 C:0.256727 G:0.263106 T:0.244695
+  Estimated R-matrix:
+                 -     2.1375377     6.8541165    0.98504169
+         2.1375377             -     1.1094913       8.84385
+         6.8541165     1.1094913             -             1
+        0.98504169       8.84385             1             -
+  Estimated value of gamma shape parameter = 0.340679
+
+Time used to compute likelihoods = 14 sec (CPU time = 13.19 sec)
+
+** Model 56 of 56 * Calculating GTR+I+G **
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the GTR+G+I model
+    Number of distinct data patterns under this model = 551
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Writing likelihood scores (and parameter estimates) to file "~/Desktop/WH08Demo/ModelTestRun/model.scores"
+
+Tree number 1:
+  -Ln likelihood = 9930.26162
+  Estimated base frequencies = A:0.239253 C:0.261886 G:0.263250 T:0.235611
+  Estimated R-matrix:
+                 -     1.8995231     6.2288262    0.95140921
+         1.8995231             -      1.007759     8.6941622
+         6.2288262      1.007759             -             1
+        0.95140921     8.6941622             1             -
+  Estimated value of proportion of invariable sites = 0.404564
+  Estimated value of gamma shape parameter = 0.980000
+
+Time used to compute likelihoods = 17 sec (CPU time = 16.91 sec)
