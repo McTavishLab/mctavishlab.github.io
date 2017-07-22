@@ -531,20 +531,30 @@ Instead of incorporating the partitioning scheme into the data file, we pass in 
 </li><li>For example:
 This partition would split up the two genes, and names the partitions.
 We also need to tell RAxML what kind of data the partition contains <br>
-
-DNA, rag1=1-729<br>
-DNA, rag2=730-1218<br>
+<pre>
+DNA, rag1=1-729
+DNA, rag2=730-1218
+</pre>
 
 </li><li>If we partition the dataset like this the alpha shape parameter of the Gamma model of rate heterogeneity, the empirical base frequencies, and the evolutionary rates in the GTR matrix will be estimated independently for each of the two genes. RAxML will also estimate a separate set of branch lengths for each partition. However, they will be jointly optimized on a single topology.
 
-</li><li>If we want to do a more elaborate partitioning by, 1st, 2nd and third codon position we can create a more complex parition file.
+</li><li>If we want to do a more elaborate partitioning by, 1st, 2nd and third codon position we can create a more complex partition file.<br>
+<pre>
+DNA, p1=1-1218\3 
+DNA, p2=2-1218\3 
+DNA, p3=3-1218\3 
+</pre>
 
 
-DNA, p1=1-60\3 <br>
-DNA  p2=2-60\3 <br>
-DNA, p3=3-60\3 <br>
+</li><li>Open a text file, and set up your preferred partition scheme, and save it as <span class="file">partition.txt</span>
 
-RAxML does not include the same models of sequence evolution that Garli does <!--TODO fact check and explain better-->
+
+</li><li><span class="command">raxmlHPC -m GTRGAMMAI -p &lsaquo;choose a random number seed&rsaquo; -q partition.txt -s datafiles/murphy29.rag1rag2.fasta -n rax_partition</span><br>
+<!--TODO fact check and explain better-->
+</li>
+<p>NOTE:Partitioning allows for different rates across genes or sites, but this is still a concatenated analysis. 
+Parameters of the evolutionary model are separately estimated, but they are constrained to the same topology.
+Next week we will discuss genetree-species tree approaches which allow variation in gener tree topologies to inform the species tree. </p>
 </ol>
 
 
