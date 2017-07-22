@@ -349,9 +349,9 @@ However, this will take too long to run! Kill this run using Ctrl-C.
 
 </li><li>A pre-baked bootstrap run is in the folder 'bootstrap_results'. We will use this one instead.
 We can then apply those bootstrap proportions to our best scoring tree from our first analysis, by using the '-f' flag to select an algorithim. We will use '-f b' to draw bipartition information on a tree, which we provide with the '-t' flag <br>
-<span class="command"> raxmlHPC -m GTRGAMMA -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n ML_boot</span>
+<span class="command"> raxmlHPC -m GTRGAMMA -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
 
-</li><li>Look at the file <span class="file">RAxML_bipartitions.ML_boot</span> 
+</li><li>Look at the file <span class="file">RAxML_bipartitions.boot_bipart</span> 
 You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions.
 
 </li>
@@ -427,7 +427,7 @@ In RAxML you can you a model corrected for ascertainment bias by using a model c
 
 Did you get the correct tree?<br>
 
-</li><li> 
+</li><li> Bootstrap it!
 <p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span></p>
 <p><span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
 
