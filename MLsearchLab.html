@@ -318,7 +318,7 @@ Take a look at this constraint tree in Figtree. <!--TODO double check figtree ca
 </li><li>Save the file.
 <p>
 
-Now we need to tell GARLI to use the constraint. The <span class="file">garli.conf</span> file in this directory has already been set up to be similar to the one we used during the unconstrained search earlier, so we only need to make minimal changes. </p>
+Now we need to tell GARLI to use the constraint. The <span class="file">garli_constrained.conf</span> file has already been set up to be similar to the one we used during the unconstrained search earlier, so we only need to make minimal changes. </p>
 Edit the <span class="file">garli_constraint.conf</span> file and set <span class="config">constraintfile = whippoNegative.txt</span>.
 </li><li>Set <span class="config">ofprefix = constrainedRun1</span>.
 
@@ -344,23 +344,22 @@ but not that they are correct!
 
 <ol>
 <li>In RAxML we can use the flags '-# &lsaquo;number of bootstrap replicates&rsaquo;', and '-b' &lsaquo;bootstrap random number seed&rsaquo; <br>
-
-Run:
-<span class="command">raxmlHPC -m GTRGAMMA -p &lsaquo;choose a random number seed&rsaquo; -# 100 -b &lsaquo;bootstrap random number seed&rsaquo; -s datafiles/murphy29.rag1rag2.fasta -n rax_boot</span> <br>
-
+<span class="command"> raxmlHPC -m GTRGAMMA -p ‹choose a random number seed› -# 100 -b ‹bootstrap random number seed› -s datafiles/murphy29.rag1rag2.fasta -n rax_boot</span><br>
 However, this will take too long to run! Kill this run using Ctrl-C.
 
 </li><li>A pre-baked bootstrap run is in the folder 'bootstrap_results'. We will use this one instead.
+We can then apply those bootstrap proportions to our best scoring tree from our first analysis, by using the '-f' flag to select an algorithim. We will use '-f b' to draw bipartition information on a tree, which we provide with the '-t' flag <br>
+<span class="command"> raxmlHPC -m GTRGAMMA -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n ML_boot</span>
 
-</li><li> We can then apply those bootstrap proportions to our best scoring tree from our first analysis, by using the '-f' flag to select an algorithim.
-We will use '-f b' to draw bipartition information on a tree, which we provide with the '-t' flag <br>
+</li><li>Look at the file <span class="file">RAxML_bipartitions.ML_boot</span> 
+You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions.
 
-<span class="command"> raxmlHPC -m GTRGAMMA -p &lsaquo;choose a random number seed&rsaquo; -f b -t RAxML_bestTree.rax01 -z RAxML_bootstrap.rax_boot -n ML_boot</span>
-
-Other external program can also be used to map bootstrap replicates onto biparitions or estimate consensus trees. Good options are PAUP*, and a nice program called Sumtrees (it requires a Python installation, and is available at <a href="http://pythonhosted.org/DendroPy/programs/sumtrees.html" target="_new">http://pythonhosted.org/DendroPy/programs/sumtrees.html</a>).</p>
 </li>
+<p>
+Other external program can also be used to map bootstrap replicates onto biparitions or estimate consensus trees. 
+Good options are PAUP*, and a nice program called Sumtrees (it requires a Python installation, and is available at <a href="http://pythonhosted.org/DendroPy/programs/sumtrees.html" target="_new">http://pythonhosted.org/DendroPy/programs/sumtrees.html</a>).</p>
 </ol>
-
+<!--
 <p>Calulate a bootstrap consensus tree from provided boostrap run output using sumtrees.</p>  
 <p>"<span class="command">sumtrees.py --min-clade-freq=0.5 --percentages -d0 -o nucboot.sumtrees nucboot.boot.tre</span>"</p>
 <p>--min-clade-freq=0.5 specifies that that we want our summary tree to show clades must be found in at least half of the bootstrap trees to be included in the consensus. The “--percentages” option instructs SumTrees to report the support in terms of percentages, while the “-d 0” option instructs SumTrees not to bother reporting any decimals. </p>
@@ -369,11 +368,13 @@ Other external program can also be used to map bootstrap replicates onto biparit
 On the left panel of figtree click on the node labels and select bootstrap support from the dropdown menu.
 </p>
 <p>
-Alternatively, we can post-process our bootstrap results using PAUP* </p>
+-->
+Alternatively, can post-process our bootstrap results using PAUP*. These instructions are listed for your reference, but in the interest of time, skip this section for now. </p>
 <ol>
 <li>In the <span class="file">garliBootstrap</span> directory, execute the <span class="file">murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup murphy29.rag1rag2.nex</span>").
 
-</li><li>In PAUP*, load the bootstrap trees with the command "<span class="command">gettrees file=nucboot.boot.tre</span>".
+</li><li>In PAUP*, clear any existing trees in memory using "<span class="command">cleartrees</span>"
+</li><li>Load the bootstrap trees with the command "<span class="command">gettrees unrooted file=RAxML_bootstrap.rax_boot</span>".
 </li><li>In PAUP*, make the majority rule consensus tree with the command "<span class="command">contree /strict=no majrule=yes LE50=yes grpfreq=no</span>".
 </li></ol>
 <p>
@@ -394,7 +395,7 @@ This does not include invariant sites, or sites at which repeated mutations have
 
 </li><li> 
 Lets take a simulated data set that has not been subject to any ascertainment bias <span class="file">sim.phy</span>, and estimate a tree:
-<p>"<span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim.phy -n no_asc_bias</span>"</p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_noasc.phy -n no_asc_bias</span></p>
 
 Use the compare_trees.py script to compare the best tree estimate to the true tree, the tree that the data was simulated on <span class="file">datafiles/sim.tre</span><br>
 
@@ -403,17 +404,18 @@ Did you get the correct tree?<br>
 </li><li> 
 Now lets run that same analysis on only the variable sites from that alignment, <span class="file">sim_variablesites.phy</span>. This is the exact same alignment, but with the invariant columns removed.<br>
 
-<p>"<span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_variablesites.phy -n asc_uncorrected</span>"</p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_variablesites.phy -n asc_uncorrected</span></p>
 
 Did you get the correct tree?<br>
-How doteh branch lengths differ from the true tree?<br>
+How do the branch lengths differ from the true tree?<br>
 
 </li><li> Lets bootstrap it!
 
-<p>"<span class="command">raxmlHPC -m GTRGAMMA -p 123 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_uncorr_boot</span>"</p>
-<p>"<span class="command">raxmlHPC -m GTRGAMMA -f b -t RAxML_bestTree.asc_uncorrected -z RAxML_bootstrap.asc_uncorr_boot -n asc_uncorr_bipart</span>"</p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 123 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_uncorr_boot</span></p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -f b -t RAxML_bestTree.asc_uncorrected -z RAxML_bootstrap.asc_uncorr_boot -n asc_uncorr_bipart</span></p>
 
-What is the bootstrap support for the one bipartition in the tree?<br>
+
+What is the bootstrap support for the one bipartition in the tree? (You can open it in figtree, but with such a simple tree you can also just look at the text file directly)<br>
 
 Is that bipartition in the true tree?<br>
 
@@ -421,25 +423,21 @@ Is that bipartition in the true tree?<br>
 </li><li> However, even if you only have the variable sites, by using an appropriate model of evolution, it is possible to rescue your analysis.
 In RAxML you can you a model corrected for ascertainment bias by using a model corrected for these known biases. we will use th ASC_GTRGAMMA model, with the lewis (as is Paul Lewis) correction for discarding sites that don't vary in the alignment.
 
-<p>"<span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -s datafiles/sim_variablesites.phy -n asc_corrected</span>"</p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -s datafiles/sim_variablesites.phy -n asc_corrected</span></p>
 
 Did you get the correct tree?<br>
 
 </li><li> 
-<p>"<span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span>"</p>
-<p>"<span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span>"</p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span></p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
 
 
 What is the bootstrap support for the one bipartition in the tree?<br>
 
 Is that bipartition in the true tree?<br>
 
-This is the exact same dataset!<br>
+<b>This is the exact same dataset!</b><br>
 NOTE: The ascertainment bias corrections in RAxML will not run if there are <strong>ANY</strong> invariant columns in your alignment.<br>
-
-</li><li> 
-
-
 </li>
 </ol>
 
