@@ -50,10 +50,10 @@ p {
 </li><li><a href="#exercise1">exercise 1: start and monitor basic nucleotide runs</a>
 </li><li><a href="#exercise2">exercise 2: inspect and compare the final results of a run</a>
 </li><li><a href="#exercise3">exercise 3: constrain a search</a>
-</li><li><a href="#exercise4">exercise 4: use a partitioned model</a>
-</li><li><a href="#exercise5">exercise 5: bootstrap analyses</a>
-</li><li><a href="#exercise6">exercise 6: use a custom amino acid model</a>
-<!--
+</li><li><a href="#exercise4">exercise 4: bootstrap analyses</a>
+</li><li><a href="#exercise5">exercise 5: bootstrapping and ascertainment bias</a>
+</li><li><a href="#exercise6">exercise 6: use a partitioned model</a>
+<!-- 
 </li><li><a href="#exercise9">exercise 9: use a codon model</a>
 </li><li><a href="#exercise10">exercise 10: use gap (insertion-deletion) models</a>
 </li><li><a href="#exercise11">exercise 11: further exercises</a>
@@ -512,7 +512,7 @@ On to the actual exercise...</p>
 <td align="center">TVM+I+G</td>
 </tr>
 </table>
-</li><li>In the <span class="file">05.basicPartitioned</span> directory, open the <span class="file">garli.conf</span> file. Everything besides the models should already be set up. Scroll down a bit until you see several sections headed like this: [model1], [model2]. This is where you will enter the model settings for each subset, in normal GARLI model format, in the same order as the subsets were specified in the charpartition. The headings [model1] etc MUST appear before each model, and MUST begin with model 1. For example, if you created 3 subsets, you'll need three models listed here. Open the <span class="file">garli_model_specs.txt</span> file. This file will make it much easier to figure out the proper model configuration entries to put into the garli.conf file.
+</li><li>Open the <span class="file">garli_paritioned.conf</span> file. Everything besides the models should already be set up. Scroll down a bit until you see several sections headed like this: [model1], [model2]. This is where you will enter the model settings for each subset, in normal GARLI model format, in the same order as the subsets were specified in the charpartition. The headings [model1] etc MUST appear before each model, and MUST begin with model 1. For example, if you created 3 subsets, you'll need three models listed here. Open the <span class="file">garli_model_specs.txt</span> file. This file will make it much easier to figure out the proper model configuration entries to put into the garli.conf file.
 
 </li><li>In the <span class="file">garli_model_specs.txt</span> file, find the models that appeared for your chosen subsets in the table above. For example, if I was looking to assign a model to rag2 2nd positions, the model from the table would be "TrN+G". Find the line that reads "#TrN+G" and copy the 6 lines below it. Now paste those into the <span class="file">garli.conf</span> file, right below a bracketed [model#] line with the proper model number.
 </li><li>Start partitioned GARLI.
@@ -545,7 +545,7 @@ RAxML does not include the same models of sequence evolution that Garli does <!-
 </ol>
 
 
-
+<!--
 <h4 class="heading" id="exercise7">exercise 7: use a custom amino acid model</h4>
 
 
@@ -584,7 +584,7 @@ Once the run finishes (approx. 10-15 min. on a slow machine) you can use Figtree
 
 </p>
 <div class="btop-wrap"><a href="#top" class="btop">back to top</a></div>
-<!--
+
 <h4 class="heading" id="exercise9">exercise 9: use a codon model</h4>
 </p><p>
 Codon-based analyses are very, very slow. We won't do a complete search here, but will set up a configuration file for one and start it to get a feel for the speed. We'll tell GARLI to use a model more or less equivalent to the Goldman-Yang 1994 model. </p>
