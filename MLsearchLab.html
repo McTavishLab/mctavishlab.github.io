@@ -135,7 +135,7 @@ Make the necessary changes: </p>
 datatype = dna
 ratematrix = 6rate
 statefrequencies = estimate
-ratehetmodel = gamma
+ratheetmodel = gamma
 numratecats = 4
 invariantsites = estimates
 </pre>
@@ -278,7 +278,7 @@ To read the file into PAUP*, type "<span class="command">gettrees unrooted mode=
 <p>
 This tells PAUP* to use the two trees you have imported but to optimize all the parameter values. After a bit you will see the optimized <i>ln</i>L score and parameter values for each tree as estimated by PAUP*.
 
-</li><li>How do the scores for the two trees compare with each other? (these scores were caluclated in teh same way, and are therefore directly comparable)
+</li><li>How do the scores for the two trees compare with each other? (these scores were caluclated in the same way, and are therefore directly comparable)
 
 </li><li>How do they compare to the likelihood estimates from Garli and RAxML?
 
@@ -324,7 +324,7 @@ Take a look at this constraint tree in Figtree. <!--TODO double check figtree ca
 Now we need to tell GARLI to use the constraint. The <span class="file">garli_constrained.conf</span> file has already been set up to be similar to the one we used during the unconstrained search earlier, so we only need to make minimal changes. </p>
 Edit the <span class="file">garli_constraint.conf</span> file and set <span class="config">constraintfile = whippoNegative.txt</span>.
 </li><li>Set <span class="config">ofprefix = constrainedRun1</span>.
-
+</li><li>Set the datafile - does the path to the datafile look right to you?
 </li><li>Save the config file.
 </li><li>Run Garli:
 <span class="command"> Garli garli_constrained.conf</span>
@@ -432,7 +432,7 @@ Did you get the correct tree?<br>
 
 </li><li> 
 <p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span></p>
-<p><span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.asc_corrected -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
 
 
 What is the bootstrap support for the one bipartition in the tree?<br>
@@ -597,7 +597,7 @@ Codon-based analyses are very, very slow. We won't do a complete search here, bu
 </li><li>Set <span class="config">ratematrix = 2rate</span>
 </li><li>Set <span class="config">statefrequencies = f3x4</span>
 
-</li><li>Set <span class="config">ratehetmodel = none</span>
+</li><li>Set <span class="config">ratheetmodel = none</span>
 </li><li>Set <span class="config">numratecats = 1</span>
 </li><li>Set <span class="config">invariantsites = none</span>
 </li><li>Save the file, start GARLI.
