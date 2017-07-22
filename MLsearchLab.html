@@ -14,8 +14,10 @@
 <div id="container" class="layout-region"><div id="main">
 
     <h1 class="title">ML Search Lab</h1>
-   </li><li>Modified from Derrick Zwickl's <a href="http://phylo.bio.ku.edu/slides/GarliDemo/garliExercise.WH2016.html"> Garli Lab activity</a>,
-    and from Alexis Stamatakis's <a href="https://sco.h-its.org/exelixis/web/software/raxml/hands_on.html"> RAxML tutorial</a>
+
+    Modified from Derrick Zwickl's <a href="http://phylo.bio.ku.edu/slides/GarliDemo/garliExercise.WH2016.html"> Garli Lab activity</a>,
+    and from Alexis Stamatakis's <a href="https://sco.h-its.org/exelixis/web/software/raxml/hands_on.html"> RAxML tutorial</a>, 
+    by <a href="https://mctavishlab.github.io">Emily Jane McTavish</a>,
 
   
 <div id="content" class="clearfix"><div id="node-112" class="node clearfix node-page node-full published not-promoted not-sticky without-photo ">
@@ -63,7 +65,7 @@ p {
 <h4 class="heading" id="gettingstarted">getting started</h4>
 <p>
 <ul>
-<li>Download the package of files used in this activity: <a href="https://mctavishlab.github.io/assets/MLsearch.WH2017.zip">MLsearch.WH2017.zip</a>
+<li>Download the package of files used in this activity: <a href="https://mctavishlab.github.io/assets/MLsearch.WH2017.zip">MLsearch.WH2017.zip</a><br>
 Login to the cluster and type</p>
 <p>wget https://mctavishlab.github.io/assets/MLsearch.WH2017.zip
 </li><li>Uncompress the zip file using "<span class="command">unzip MLsearch.WH2017.zip</span>")
@@ -174,9 +176,8 @@ Instead of using a config file, you will provide the same (or similar) informati
 We are using same dataset as we used for Garli, but in fasta file format, rather than nexus. (Take a look at the files in MLsearchLab/datafiles to familiarize yourself.)<br>
 To set the evolutionary model to GTR+I+G, as we did in the Garli run, we could use '-m GTRGAMMAI'.
 However, RAxML also implements a similar, faster model, GTRCAT, that uses a different approximation to capture rate heterogeneity across sites,
-that is fater and yields trees with slightly better likelihood values, under GRT+G+I.
-For more information see <a href="https://sco.h-its.org/exelixis/pubs/HICOMB2006.pdf"> Stamatakis 2006</a>. 
-We will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
+that is faster and yields trees with slightly better likelihood values, under GRT+G+I.(This is one of two often confused CAT models in phylogenetics.)
+We use GTRCATI as our model, and will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
 </p>
 <ol>
 <li><span class="command">raxmlHPC -m GTRCATI -p &lsaquo;choose a random number seed&rsaquo; -# 2 -s datafiles/murphy29.rag1rag2.fasta -n rax01</span><br>
@@ -530,7 +531,7 @@ On to the actual exercise...</p>
 
 <strong>RAxML</strong><br>
 <ol>
-<li>We can set up any of the same partitioning schemes as described above for Garli.
+<li>We can set the same partitioning schemes as described above for Garli.
 Instead of incorporating the partitioning scheme into the data file, we pass in a text file that describes the partitions using the command line argument -q.
 
 
