@@ -92,7 +92,7 @@ The config file is divided into two parts: <span class="config">[general]</span>
 Run garli by calling the software and telling it the name of the configuration file to use. 
 
 To run:<br>
-<span class="command"> Garli &lsaquo;garli config file&rsaquo;</span>
+<span class="command"> garli &lsaquo;garli config file&rsaquo;</span>
 <p>
 <strong>RAxML</strong><br>
 RAxML reads its configuration information from command line flags. 
@@ -143,7 +143,7 @@ invariantsites = estimates
 
 </li><li>Save the file
 </li><li>Run Garli using that configuration file
-<span class="command"> garli &lsaquo;garli_ex1.conf&rsaquo;</span>
+<span class="command"> garli garli_ex1.conf</span>
 
 </li></ol>
 <p>You will see a bunch of text scroll by, informing you about the data set and the run that is starting. Most of this information is not very important, but if the program stops be sure to read it for any error messages. The output will also contain information about the progress of the initial optimization phase, and as the program runs it will continue to log information to the screen. This output contains the current generation number, current best <i>ln</i>L score, optimization precision and the generation at which the last change in topology occurred.  All of the screen output is also written to a log file that in this case will be named <span class="file">garli_run1.screen.log</span>, so you can come back and look at it later.<br />
