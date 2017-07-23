@@ -131,7 +131,7 @@ Make the necessary changes: </p>
 </li><li>Set <span class="config">ofprefix = garli_run1</span>. This will tell the program to begin the name of all output files with "garli_run1...".
 
 
-</li><li>We are going to use a GRT+I+G model of sequence evolution. This the default model set in the configuration file, so you don't need to change anything, but look at the section that sets up the evolutionary model:
+</li><li>We are going to use a GTR+I+G model of sequence evolution. This the default model set in the configuration file, so you don't need to change anything, but look at the section that sets up the evolutionary model:
 <pre>
 datatype = dna
 ratematrix = 6rate
@@ -175,7 +175,7 @@ Instead of using a config file, you will provide the same (or similar) informati
 We are using same dataset as we used for Garli, but in fasta file format, rather than nexus. (Take a look at the files in MLsearchLab/datafiles to familiarize yourself.)</p>
 <p>
 To set the evolutionary model to GTR+I+G, as we did in the Garli run, we will use '-m GTRGAMMAI'.
-RAxML also implements a similar, faster model, GTRCAT, that uses a different approximation to capture rate heterogeneity across sites. GTRCAT is faster and can yield trees with slightly better likelihood values, under GRT+G+I (see <a href="http://www.hicomb.org/papers/HICOMB2006-05.pdf">Stamatakis 2006</a>).  It is not a good idea to use the CAT approximation of rate heterogeneity on datasets
+RAxML also implements a similar, faster model, GTRCAT, that uses a different approximation to capture rate heterogeneity across sites. GTRCAT is faster and can yield trees with slightly better likelihood values (see <a href="http://www.hicomb.org/papers/HICOMB2006-05.pdf">Stamatakis 2006</a>).  It is not a good idea to use the CAT approximation of rate heterogeneity on datasets
 with less than 50 taxa. In general there will not be enough data per alignment column available to reliably estimate the per-site rate parameters. We only have 29 taxa here, so we will stick with GTRGAMMA.<br>
 
 We will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
@@ -278,7 +278,7 @@ To read the file into PAUP*, type "<span class="command">gettrees file=garli_run
 Using 'mode=7' will keep your tree from Garli in memory as well.
 To read the file into PAUP*, type "<span class="command">gettrees unrooted mode=7 file=RAxML_bestTree.rax01</span>".)
 
-</li><li> Set your model of evolution to GRT+I+G in PAUP by running "<span class="command">lsc/nst=6 rmat=estimate basefreq=empirical shape=estimate rates=gamma</span>"
+</li><li> Set your model of evolution to GTR+I+G in PAUP by running "<span class="command">lsc/nst=6 rmat=estimate basefreq=empirical shape=estimate rates=gamma</span>"
 
 </li><li>In PAUP*, score your two trees by running "<span class="command">lscore</span>".
 
