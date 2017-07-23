@@ -104,7 +104,7 @@ The command line flags required for every raxml run are <br>
  <span class="command">raxmlHPC -m &lsaquo;model of evolution&rsaquo; -p &lsaquo;random number seed&rsaquo; -s &lsaquo;alignment file (in fasta or phylip format)&rsaquo; -n &lsaquo;output_name&rsaquo; </span><br>
 
 These flags can be used in any order, but it makes things much less confusing if you keep them in the same order when you run different analyses.
-I like to keep the model of evolution first, and data file and the output file name last. <br>
+I like to keep the model of evolution first, and data file and the output file name last. You can type in a number after -p for the random number seed, or use $RANDOM, which will choose a random number for you. Using a seed allows you to re-run analyses and get the same results. But if you want to compare different results, be sure to change the random seed!<br>
 
 NOTE: RAxML will <b>not</b> automatically overwrite files form previous runs with the same name. Sometimes this is convenient, sometimes it is annoying.
 If you get the error message <i>RAxML output files with the run ID &lsaquo;output_name&rsaquo; already exist"</i> either delete those files, or use a new name for your output.
@@ -258,7 +258,7 @@ It isn't easy (or reasonable) to check by eye! And because of different choices 
 
 Check out the Robinson Foulds distances between the Garli and RAxML estimates: 
 using <br>
-<span class="command">python treecompare.py RAxML_bestTree.rax01 &lsaquo;treefile format&rsaquo; garli.best.tre &lsaquo;treefile format&rsaquo;</span>,<br>
+<span class="command">python treecompare.py RAxML_bestTree.rax01 &lsaquo;treefile format&rsaquo; garli_run1.best.tre &lsaquo;treefile format&rsaquo;</span>,<br>
 (open the tree files in your text editor to figure out what the tree file formats are for these two trees.) <br>
 
 </li><li>What are the RF and weighted RF distances between your two best tree estimates?
