@@ -408,7 +408,7 @@ This does not include invariant sites, or sites at which repeated mutations have
 Lets take a simulated data set that has not been subject to any ascertainment bias <span class="file">sim_noasc.phy</span>, and estimate a tree:
 <p><span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_noasc.phy -n no_asc_bias</span></p>
 
-Use the compare_trees.py script to compare the best tree estimate to the true tree, the tree that the data was simulated on <span class="file">datafiles/sim.tre</span><br>
+Use the treecompare.py script to compare the best tree estimate to the true tree, the tree that the data was simulated on <span class="file">datafiles/sim.tre</span><br>
 
 Did you get the correct tree?<br>
 
@@ -457,7 +457,7 @@ NOTE: The ascertainment bias corrections in RAxML will not run if there are <str
 <p><div class="btop-wrap"><a href="#top" class="btop">back to top</a></div>
 
 
-<h4 class="heading" id="exercise5">exercise 5: use a partitioned model</h4>
+<h4 class="heading" id="exercise6">exercise 6: use a partitioned model</h4>
 <p>
 Partitioned models are those that divide alignment columns into discrete subsets <i>a priori</i>, and then apply independent substitution submodels to each. There are a nearly infinite number of ways that an alignment could be partitioned and have submodels assigned, so not surprisingly configuration of these analyses is more complex.  </p>
 <p>
