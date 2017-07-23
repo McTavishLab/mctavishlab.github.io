@@ -316,7 +316,7 @@ The first step in applying one of the topological hypothesis tests is to find th
 It is possible to set positive constraints in RAxML, but it is not possible to set negative constraints, so this section we will only use Garli.
 GARLI allows constraints to be specified in a number of ways. We will do it by specifying inputing a multifurcating tree, with only the bipartition being constrained.
 <ol>
-<li>Use a text editor to open the text file named <span class="file">whippoNegative.txt</span>.
+<li>Use a text editor to open a new text file. 
 
 <p>
 Constraints can either be positive (MUST be in the inferred tree) or converse (also called negative, CANNOT be in the inferred tree). The constraint type is specified to GARLI by putting a + or - at the start of the constraint string in the constraint file.<br>
@@ -325,7 +325,7 @@ Constraints can either be positive (MUST be in the inferred tree) or converse (a
 Rather than having to count the lines in the input nexus file, you can look at your Garli01.best.tre output from the previous exercise to see that Whale and Hippo are 21 and 22).
 Take a look at this constraint tree in Figtree. <!--TODO double check figtree can read, or use copy paste trick!-->
 </p>
-</li><li>Save the file.
+</li><li>Save the file as <span class="file">whippoNegative.txt</span>.
 <p>
 
 Now we need to tell GARLI to use the constraint. The <span class="file">garli_constrained.conf</span> file has already been set up to be similar to the one we used during the unconstrained search earlier, so we only need to make minimal changes. </p>
