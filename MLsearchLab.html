@@ -172,14 +172,16 @@ Now lets run the same analysis in RAxML.
 <p>
 Instead of using a config file, you will provide the same (or similar) information via command line flags. We will used the required flags and add
 '-# 2', to tell RAxML to run 2 search replicates, like we did in Garli.<br>
-We are using same dataset as we used for Garli, but in fasta file format, rather than nexus. (Take a look at the files in MLsearchLab/datafiles to familiarize yourself.)<br>
-To set the evolutionary model to GTR+I+G, as we did in the Garli run, we could use '-m GTRGAMMAI'.
-However, RAxML also implements a similar, faster model, GTRCAT, that uses a different approximation to capture rate heterogeneity across sites,
-that is faster and yields trees with slightly better likelihood values, under GRT+G+I.(This is one of two often confused CAT models in phylogenetics.)
-We use GTRCATI as our model, and will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
+We are using same dataset as we used for Garli, but in fasta file format, rather than nexus. (Take a look at the files in MLsearchLab/datafiles to familiarize yourself.)</p>
+<p>
+To set the evolutionary model to GTR+I+G, as we did in the Garli run, we will use '-m GTRGAMMAI'.
+RAxML also implements a similar, faster model, GTRCAT, that uses a different approximation to capture rate heterogeneity across sites. GTRCAT is faster and can yield trees with slightly better likelihood values, under GRT+G+I (see <a href="http://www.hicomb.org/papers/HICOMB2006-05.pdf">Stamatakis 2006</a>).  It is not a good idea to use the CAT approximation of rate heterogeneity on datasets
+with less than 50 taxa. In general there will not be enough data per alignment column available to reliably estimate the per-site rate parameters. We only have 29 taxa here, so we will stick with GTRGAMMA.<br>
+
+We will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
 </p>
 <ol>
-<li><span class="command">raxmlHPC -m GTRCATI -p &lsaquo;choose a random number seed&rsaquo; -# 2 -s datafiles/murphy29.rag1rag2.fasta -n rax01</span><br>
+<li><span class="command">raxmlHPC -m GTRGAMMAI -p &lsaquo;choose a random number seed&rsaquo; -# 2 -s datafiles/murphy29.rag1rag2.fasta -n rax01</span><br>
 </li>
 </ol>
 
@@ -352,12 +354,12 @@ but not that they are correct!
 
 <ol>
 <li>In RAxML we can use the flags '-# &lsaquo;number of bootstrap replicates&rsaquo;', and '-b' &lsaquo;bootstrap random number seed&rsaquo; <br>
-<span class="command"> raxmlHPC -m GTRCATI -p ‹choose a random number seed› -# 100 -b ‹bootstrap random number seed› -s datafiles/murphy29.rag1rag2.fasta -n rax_boot</span><br>
+<span class="command"> raxmlHPC -m GTRGAMMAI -p ‹choose a random number seed› -# 100 -b ‹bootstrap random number seed› -s datafiles/murphy29.rag1rag2.fasta -n rax_boot</span><br>
 However, this will take too long to run! Kill this run using Ctrl-C.
 
 </li><li>A pre-baked bootstrap run is in the folder 'bootstrap_results'. We will use this one instead.
 We can then apply those bootstrap proportions to our best scoring tree from our first analysis, by using the '-f' flag to select an algorithim. We will use '-f b' to draw bipartition information on a tree, which we provide with the '-t' flag <br>
-<span class="command"> raxmlHPC -m GTRCATI -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
+<span class="command"> raxmlHPC -m GTRGAMMAI -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
 
 </li><li>Look at the file <span class="file">RAxML_bipartitions.boot_bipart</span> 
 You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions.
@@ -404,7 +406,7 @@ This does not include invariant sites, or sites at which repeated mutations have
 
 </li><li> 
 Lets take a simulated data set that has not been subject to any ascertainment bias <span class="file">sim.phy</span>, and estimate a tree:
-<p><span class="command">raxmlHPC -m GTRCAT -p 2 -s datafiles/sim_noasc.phy -n no_asc_bias</span></p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_noasc.phy -n no_asc_bias</span></p>
 
 Use the compare_trees.py script to compare the best tree estimate to the true tree, the tree that the data was simulated on <span class="file">datafiles/sim.tre</span><br>
 
@@ -413,15 +415,15 @@ Did you get the correct tree?<br>
 </li><li> 
 Now lets run that same analysis on only the variable sites from that alignment, <span class="file">sim_variablesites.phy</span>. This is the exact same alignment, but with the invariant columns removed.<br>
 
-<p><span class="command">raxmlHPC -m GTRCAT -p 2 -s datafiles/sim_variablesites.phy -n asc_uncorrected</span></p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 2 -s datafiles/sim_variablesites.phy -n asc_uncorrected</span></p>
 
 Did you get the correct tree?<br>
 How do the branch lengths differ from the true tree?<br>
 
 </li><li> Lets bootstrap it!
 
-<p><span class="command">raxmlHPC -m GTRCAT -p 123 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_uncorr_boot</span></p>
-<p><span class="command">raxmlHPC -m GTRCAT -f b -t RAxML_bestTree.asc_uncorrected -z RAxML_bootstrap.asc_uncorr_boot -n asc_uncorr_bipart</span></p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -p 123 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_uncorr_boot</span></p>
+<p><span class="command">raxmlHPC -m GTRGAMMA -f b -t RAxML_bestTree.asc_uncorrected -z RAxML_bootstrap.asc_uncorr_boot -n asc_uncorr_bipart</span></p>
 
 
 What is the bootstrap support for the one bipartition in the tree? (You can open it in figtree, but with such a simple tree you can also just look at the text file directly)<br>
@@ -430,23 +432,23 @@ Is that bipartition in the true tree?<br>
 
 
 </li><li> However, even if you only have the variable sites, by using an appropriate model of evolution, it is possible to rescue your analysis.
-In RAxML you can you a model corrected for ascertainment bias by using a model corrected for these known biases. We will use th ASC_GTRCAT model, with the lewis (as is Paul Lewis) correction for discarding sites that don't vary in the alignment.
+In RAxML you can you a model corrected for ascertainment bias by using a model corrected for these known biases. We will use th ASC_GTRGAMMA model, with the lewis (as is Paul Lewis) correction for discarding sites that don't vary in the alignment.
 
-<p><span class="command">raxmlHPC -m ASC_GTRCAT --asc-corr lewis -p 2 -s datafiles/sim_variablesites.phy -n asc_corrected</span></p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -s datafiles/sim_variablesites.phy -n asc_corrected</span></p>
 
 Did you get the correct tree?<br>
 
 </li><li> Bootstrap it!
-<p><span class="command">raxmlHPC -m ASC_GTRCAT --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span></p>
-<p><span class="command">raxmlHPC -m ASC_GTRCAT -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -# 100 -b 123 -s datafiles/sim_variablesites.phy -n asc_corr_boot</span></p>
+<p><span class="command">raxmlHPC -m ASC_GTRGAMMA -f b -t RAxML_bestTree.rax_asc_corr -z RAxML_bootstrap.asc_corr_boot -n asc_corr_bipart</span></p>
 
 
 What is the bootstrap support for the one bipartition in the tree?<br>
 
 Is that bipartition in the true tree?<br>
-
-This is the exact same dataset! If our model of evolution is not appropriate for our data, our results can be systematically biased. Incorrect inferences can have 100% bootstrap support, beacuse sampling across our data does not capture the problem.<br>
-NOTE: The ascertainment bias corrections in RAxML will not run if there are <strong>ANY</strong> invariant columns in your alignment.<br>
+<p>
+This is the exact same dataset! If our model of evolution is not appropriate for our data, our results can be systematically biased. Incorrect inferences can have 100% bootstrap support, because sampling across our data does not capture the problem.<br>
+NOTE: The ascertainment bias corrections in RAxML will not run if there are <strong>ANY</strong> invariant columns in your alignment.</p>
 </li>
 </ol>
 
@@ -566,7 +568,7 @@ DNA, s6=732-1218\3
 </li><li>Open a text file, and set up your preferred partition scheme, and save it as <span class="file">partition.txt</span>
 
 
-</li><li><span class="command">raxmlHPC -m GTRCAT -p &lsaquo;choose a random number seed&rsaquo; -q partition.txt -s datafiles/murphy29.rag1rag2.fasta -n rax_partition</span><br>
+</li><li><span class="command">raxmlHPC -m GTRGAMMA -p &lsaquo;choose a random number seed&rsaquo; -q partition.txt -s datafiles/murphy29.rag1rag2.fasta -n rax_partition</span><br>
 <!--TODO fact check and explain better-->
 </li>
 <p>NOTE:Partitioning allows for different rates across genes or sites, but this is still a concatenated analysis. 
