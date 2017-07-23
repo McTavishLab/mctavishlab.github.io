@@ -544,13 +544,24 @@ DNA, rag2=730-1218
 
 </li><li>If we partition the dataset like this the alpha shape parameter of the Gamma model of rate heterogeneity, the empirical base frequencies, and the evolutionary rates in the GTR matrix will be estimated independently for each of the two genes. RAxML will also estimate a separate set of branch lengths for each partition. However, they will be jointly optimized on a single topology.
 
-</li><li>If we want to do a more elaborate partitioning by, 1st, 2nd and third codon position we can create a more complex partition file.<br>
+</li><li>If we want to partition by 1st, 2nd and 3rd codon position we can specify that in the partition file.<br>
+
 <pre>
 DNA, p1=1-1218\3 
 DNA, p2=2-1218\3 
 DNA, p3=3-1218\3 
 </pre>
 
+
+</li><li>Or we can partition by both codon position and gene.<br>
+<pre>
+DNA, s1=1-729\3 
+DNA, s2=2-729\3 
+DNA, s3=3-729\3 
+DNA, s4=730-1218\3 
+DNA, s5=731-1218\3 
+DNA, s6=732-1218\3  
+</pre>
 
 </li><li>Open a text file, and set up your preferred partition scheme, and save it as <span class="file">partition.txt</span>
 
