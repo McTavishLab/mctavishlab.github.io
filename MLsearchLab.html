@@ -313,7 +313,7 @@ If you looked carefully at any of the trees you've inferred (and know something 
 The first step in applying one of the topological hypothesis tests is to find the best topology that does NOT contain the Whippo relationship. This is done by using a constrained topology search. In this case we want a negative (also called converse) constraint that searches through tree space while avoiding any tree that places Whale and Hippo as sisters. </p>
 
 <p>
-It is possible to set positive constraints in RAxML, but it is not possible to set negative constraints, so this section we will only use Garli.
+It is possible to set positive constraints in RAxML, but it is not possible to set negative constraints, so this section we will only use GARLI.
 GARLI allows constraints to be specified in a number of ways. We will do it by specifying inputing a multifurcating tree, with only the bipartition being constrained.
 <ol>
 <li>Use a text editor to open a new text file. 
@@ -322,7 +322,7 @@ GARLI allows constraints to be specified in a number of ways. We will do it by s
 Constraints can either be positive (MUST be in the inferred tree) or converse (also called negative, CANNOT be in the inferred tree). The constraint type is specified to GARLI by putting a + or - at the start of the constraint string in the constraint file.<br>
 </li><li>On the first line, type a '-' for a negative constraint, and then the string specifying the (Whale, Hippo) grouping 
 <span class="command">-(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,(20,21))</span>
-Rather than having to count the lines in the input nexus file, you can look at your garli_run01.best.tre output from the previous exercise to see that Whale and Hippo are 21 and 22).
+Rather than having to count the lines in the input nexus file, you can look at your garli_run01.best.tre output from the previous exercise to see that Whale and Hippo are 21 and 22.
 Take a look at this constraint tree in Figtree. <!--TODO double check figtree can read, or use copy paste trick!-->
 </p>
 </li><li>Save the file as <span class="file">whippoNegative.txt</span>.
@@ -333,8 +333,8 @@ Edit the <span class="file">garli_constraint.conf</span> file and set <span clas
 </li><li>Set <span class="config">ofprefix = constrainedRun1</span>.
 
 </li><li>Save the config file.
-</li><li>Run Garli:
-<span class="command"> Garli garli_constrained.conf</span>
+</li><li>Run GARLI:
+<span class="command"> garli garli_constrained.conf</span>
 </li></ol>
 <p>
 Constrained searches can make searching through treespace more difficult (you can think of it as walls being erected in treespace that make getting from tree X to tree Y more difficult), so you may see that the two constrained search replicates result in very different <i>ln</i>L scores. When the run finishes, note the difference in <i>ln</i>L between the best tree that you found earlier and the best constrained tree. This difference is a measure of how strongly the data support the presence of the (Whale, Hippo) group relative to its absence. Unfortunately we can't simply do a likelihood ratio test here to test for the significance of the difference because we have no expectation for how this test statistic should be distributed under the null hypothesis. That is what the parametric bootstrap, SH or AU test would tell us, but is well beyond the scope of this demo. </p>
@@ -381,7 +381,7 @@ On the left panel of figtree click on the node labels and select bootstrap suppo
 -->
 Alternatively, can post-process our bootstrap results using PAUP*. These instructions are listed for your reference, but in the interest of time, skip this section for now. </p>
 <ol>
-<li>Execute the <span class="file">datafiles/murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup murphy29.rag1rag2.nex</span>").
+<li>Execute the <span class="file">datafiles/murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup datafiles/murphy29.rag1rag2.nex</span>").
 
 </li><li>In PAUP*, clear any existing trees in memory using "<span class="command">cleartrees</span>"
 </li><li>Load the bootstrap trees with the command "<span class="command">gettrees unrooted file=bootstrap_reults/RAxML_bootstrap.rax_boot</span>".
