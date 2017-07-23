@@ -15,8 +15,8 @@
 
     <h1 class="title">ML Search Lab</h1>
 
-    Modified from Derrick Zwickl's <a href="http://phylo.bio.ku.edu/slides/GarliDemo/garliExercise.WH2016.html"> Garli Lab activity</a>,
-    and from Alexis Stamatakis's <a href="https://sco.h-its.org/exelixis/web/software/raxml/hands_on.html"> RAxML tutorial</a>, 
+    Modified from Derrick Zwickl's <a href="http://phylo.bio.ku.edu/slides/GarliDemo/garliExercise.WH2016.html"> Garli Lab activity</a>
+    and from Alexis Stamatakis's <a href="https://sco.h-its.org/exelixis/web/software/raxml/hands_on.html"> RAxML tutorial</a> 
     by <a href="https://mctavishlab.github.io">Emily Jane McTavish</a>,
 
   
@@ -84,14 +84,13 @@ This is a hard phylogenetic problem, and phylogenetic estimates are less repeata
 </p>
 <p>
 <strong>Garli</strong><br>
-GARLI reads all of its settings from a configuration file.  By default it looks for a file named <span class="file">garli.conf</span>, but other configuration files can be specified as a command line argument after the executable (e.g., if the executable were named <span class="file">garli</span>, you would type "<span class="command">Garli myconfig.conf</span>"). Note that most of the settings typically do not need to be changed from their default values, at least for exploratory runs. We will only experiment with some of the interesting settings in this demo, but detailed discussions of all settings can be found on the <a href="https://molevol.mbl.edu/index.php/Garli_wiki" target="_new">support web site</a>.</p>
+GARLI reads all of its settings from a configuration file.  By default it looks for a file named <span class="file">garli.conf</span>, but other configuration files can be specified as a command line argument after the executable (e.g., if the executable were named <span class="file">garli</span>, you would type "<span class="command">garli myconfig.conf</span>"). Note that most of the settings typically do not need to be changed from their default values, at least for exploratory runs. We will only experiment with some of the interesting settings in this demo, but detailed discussions of all settings can be found on the <a href="https://molevol.mbl.edu/index.php/Garli_wiki" target="_new">support web site</a>.</p>
 
 <p>
 The config file is divided into two parts: <span class="config">[general]</span> and <span class="config">[master]</span>. The <span class="config">[general]</span> section specifies settings such as the data set to be read, starting conditions, model settings, and output files. To start running a new data set, the only setting that <i>must</i> be specified is the <span class="config">datafname</span>, which specifies the file containing the data matrix in Nexus, PHYLIP, or FASTA format. The <span class="config">[master]</span> section specifies settings that control the functioning of the genetic algorithm itself, and typically the default settings can be used. Basic template configuration files are included with any download of the program. </p>
 <p>
 Run garli by calling the software and telling it the name of the configuration file to use. 
 
-Garli will automatically look for a file named 'garli.conf', but to make sure you are running the correct analyses we will specify the file name.
 To run:<br>
 <span class="command"> Garli &lsaquo;garli config file&rsaquo;</span>
 <p>
@@ -136,7 +135,7 @@ Make the necessary changes: </p>
 <pre>
 datatype = dna
 ratematrix = 6rate
-statefrequencies = estimate
+statefrequencies = empirical
 ratehetmodel = gamma
 numratecats = 4
 invariantsites = estimates
@@ -277,7 +276,7 @@ To read the file into PAUP*, type "<span class="command">gettrees file=garli_run
 Using 'mode=7' will keep your tree from Garli in memory as well.
 To read the file into PAUP*, type "<span class="command">gettrees unrooted mode=7 file=RAxML_bestTree.rax01</span>".)
 
-</li><li> Set your model of evolution to GRT+I+G in PAUP by running "<span class="command">lsc/nst=6 rmat=est basefreq=est shape=est rates=gam</span>"
+</li><li> Set your model of evolution to GRT+I+G in PAUP by running "<span class="command">lsc/nst=6 rmat=estimate basefreq=empirical shape=estimate rates=gamma</span>"
 
 </li><li>In PAUP*, score your two trees by running "<span class="command">lscore</span>".
 
@@ -380,10 +379,10 @@ On the left panel of figtree click on the node labels and select bootstrap suppo
 -->
 Alternatively, can post-process our bootstrap results using PAUP*. These instructions are listed for your reference, but in the interest of time, skip this section for now. </p>
 <ol>
-<li>In the <span class="file">garliBootstrap</span> directory, execute the <span class="file">murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup murphy29.rag1rag2.nex</span>").
+<li>Execute the <span class="file">datafiles/murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup murphy29.rag1rag2.nex</span>").
 
 </li><li>In PAUP*, clear any existing trees in memory using "<span class="command">cleartrees</span>"
-</li><li>Load the bootstrap trees with the command "<span class="command">gettrees unrooted file=RAxML_bootstrap.rax_boot</span>".
+</li><li>Load the bootstrap trees with the command "<span class="command">gettrees unrooted file=bootstrap_reults/RAxML_bootstrap.rax_boot</span>".
 </li><li>In PAUP*, make the majority rule consensus tree with the command "<span class="command">contree /strict=no majrule=yes LE50=yes grpfreq=no</span>".
 </li></ol>
 <p>
