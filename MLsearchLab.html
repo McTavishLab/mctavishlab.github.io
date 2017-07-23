@@ -68,7 +68,7 @@ p {
 <li>Download the package of files used in this activity: <a href="https://mctavishlab.github.io/assets/MLsearch.WH2017.zip">MLsearch.WH2017.zip</a><br>
 Login to the cluster and type</p>
 <p>wget https://mctavishlab.github.io/assets/MLsearch.WH2017.zip
-</li><li>Uncompress the zip file using "<span class="command">unzip MLsearch.WH2017.zip</span>")
+</li><li>Uncompress the zip file using "<span class="command">unzip MLsearch.WH2017.zip</span>"
 </ul>
 <ul><b>You will need to make edits to the configuration file and command line arguments in most cases.</b>
 </ul>
@@ -432,7 +432,7 @@ Is that bipartition in the true tree?<br>
 
 
 </li><li> However, even if you only have the variable sites, by using an appropriate model of evolution, it is possible to rescue your analysis.
-In RAxML you can you a model corrected for ascertainment bias by using a model corrected for these known biases. We will use th ASC_GTRGAMMA model, with the lewis (as is Paul Lewis) correction for discarding sites that don't vary in the alignment.
+In RAxML you can you a model corrected for ascertainment bias by using a model corrected for these known biases. We will use th ASC_GTRGAMMA model, with the lewis (as in Paul Lewis) correction for discarding sites that don't vary in the alignment.
 
 <p><span class="command">raxmlHPC -m ASC_GTRGAMMA --asc-corr lewis -p 2 -s datafiles/sim_variablesites.phy -n asc_corrected</span></p>
 
