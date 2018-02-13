@@ -19,8 +19,6 @@ A synthetic
 <img src="/assets/OpenTree-final.png" alt="Drawing" style="width: 150px;"/>
 
 
-I'm looking for undergraduate researchers to work on this project starting January 2017.
-
 <a href="http://www.pnas.org/content/112/41/12764.abstract">PNAS paper</a>, 
 <a href="https://www.washingtonpost.com/news/speaking-of-science/wp/2015/09/21/this-new-complete-tree-of-life-shows-how-2-3-million-species-are-related/">Washington post article</a>, 
 <a href="https://www.reddit.com/r/askscience/comments/3lxde9/askscience_ama_series_we_are_dr_karen_cranston">Reddit 'Ask-Me-Anything'</a>,
