@@ -69,8 +69,11 @@ p {
 
 <h4 class="heading" id="intro">introduction</h4>
 <p>
-<b>This section explains dataset and the commmands, you don't need to run them here</b>
+<i>This section explains dataset and the commmands, you don't need to run them here!</i>
+<br>
+</p>
 
+<p>
 <strong>Example data set</strong><br>
 We will be using a small 29 taxon by 1218 nucleotide mammal data set that was taken from a much larger data set (44 taxa, 17kb over 20 genes) presented in (<a href="http://www.ncbi.nlm.nih.gov/pubmed/11743200" target="_new">Murphy 2001</a>). The genes included here are RAG1 and RAG2 (Recombination Activating Gene). This is a difficult data set because the internal branches are quite short, and the terminals quite long. 
 This is a hard phylogenetic problem, and phylogenetic estimates are less repeatable on this data set than on many others of similar size, so consider this a "worst case" data set. There are definitely local topological optima. The trees inferred using this gene also do not match our understanding of the relationships of these taxa in many places, but that is not really important for our purposes here.<br />
@@ -186,10 +189,10 @@ with less than 50 taxa. In general there will not be enough data per alignment c
 
 We will compare the likelihoods of our trees from our RAxML and Garli searches in Exercise 3<br>
 </p>
-<ol>
+<ul>
 <li><span class="command">raxmlHPC -m GTRGAMMAI -p &lsaquo;choose a random number seed&rsaquo; -# 2 -s datafiles/murphy29.rag1rag2.fasta -n rax01</span><br>
 </li>
-</ol>
+</ul>
 
 
 RAxML will output a bunch of files - we will examine the key ones in exercise 2.
