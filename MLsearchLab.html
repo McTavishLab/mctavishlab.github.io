@@ -48,6 +48,7 @@ p {
 </style>
 </head>
 
+</li><li><a href="#intro">introduction</a>
 </li><li><a href="#gettingstarted">getting started</a>
 </li><li><a href="#exercise1">exercise 1: start and monitor basic nucleotide runs</a>
 </li><li><a href="#exercise2">exercise 2: inspect and compare the final results of a run</a>
@@ -60,21 +61,16 @@ p {
 </li><li><a href="#exercise10">exercise 10: use gap (insertion-deletion) models</a>
 </li><li><a href="#exercise11">exercise 11: further exercises</a>
 -->
-</li></a></li></ul>
+</li>
 
-<h4 class="heading" id="gettingstarted">getting started</h4>
-<p>
-<ul>
-<li>Download the package of files used in this activity: <a href="https://mctavishlab.github.io/assets/MLSearchLab.zip">MLSearch.zip</a><br>
-Login to the cluster and type</p>
-<p>wget https://mctavishlab.github.io/assets/MLSearchLab.zip
-</li><li>Uncompress the zip file using "<span class="command">unzip MLSearchLab.zip</span>"
-</ul>
-<ul><b>You will need to make edits to the configuration file and command line arguments in most cases.</b>
 </ul>
 <ul><b>In order to compete these exercises you will need to have a tree viewer and a text editor installed, and be able to access the cluster and move files to and from the cluster.</b>
 </ul>
+
+<h4 class="heading" id="intro">introduction</h4>
 <p>
+<b>This section explains dataset and the commmands, you don't need to run them here</b>
+
 <strong>Example data set</strong><br>
 We will be using a small 29 taxon by 1218 nucleotide mammal data set that was taken from a much larger data set (44 taxa, 17kb over 20 genes) presented in (<a href="http://www.ncbi.nlm.nih.gov/pubmed/11743200" target="_new">Murphy 2001</a>). The genes included here are RAG1 and RAG2 (Recombination Activating Gene). This is a difficult data set because the internal branches are quite short, and the terminals quite long. 
 This is a hard phylogenetic problem, and phylogenetic estimates are less repeatable on this data set than on many others of similar size, so consider this a "worst case" data set. There are definitely local topological optima. The trees inferred using this gene also do not match our understanding of the relationships of these taxa in many places, but that is not really important for our purposes here.<br />
@@ -113,6 +109,16 @@ If you get the error message <i>RAxML output files with the run ID &lsaquo;outpu
 We will set up several analyses in both RAxML and Garli for comparison and to explore  tree searching, likelihood calculations, models of evolution and bootstrapping.
 <!--TODO more on RAxML tree search-->
 
+<h4 class="heading" id="gettingstarted">getting started</h4>
+<p>
+<ul>
+<li>Download the package of files used in this activity: <a href="https://mctavishlab.github.io/assets/MLSearchLab.zip">MLSearch.zip</a><br>
+Login to the cluster and type</p>
+<p>wget https://mctavishlab.github.io/assets/MLSearchLab.zip
+</li><li>Uncompress the zip file using "<span class="command">unzip MLSearchLab.zip</span>"
+</ul>
+<ul><b>You will need to make edits to the configuration file and command line arguments in most cases.</b>
+</ul>
 
 <h4 class="heading" id="exercise1">exercise 1: start a basic nucleotide run</h4>
 <p><ol>
