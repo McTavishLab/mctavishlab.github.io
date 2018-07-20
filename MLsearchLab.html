@@ -131,10 +131,10 @@ Login to the cluster and type</p>
 </li></ol>
 </p><p>
 <strong>Garli</strong><br>
-There is not much that needs to be changed in the config file to start a preliminary run. In this case, a number of changes from the defaults have been made so that the example is more instructive and a bit faster (therefore, do NOT use the settings in this file as defaults for any serious analyses).  You will still need to change a few things yourself. Note that the configuration file specifies that the program perform two independent search replicates (<span class="config">searchreps = 2</span>). Also note that taxon 1 (Opossum) is set as the outgroup (<span class="config">outgroup = 1</span>). </p>
+There is not much that needs to be changed in the config file to start a preliminary run. In this example config file, a number of changes from the defaults have been made so that the example is more instructive and a bit faster (therefore, do NOT use the settings in this file as defaults for any serious analyses).  You will still need to change a few things yourself. Note that the configuration file specifies that the program perform two independent search replicates (<span class="config">searchreps = 2</span>). Also note that taxon 1 (Opossum) is set as the outgroup (<span class="config">outgroup = 1</span>). </p>
 <p>
 Make the necessary changes: </p>
-<ol>
+<ul>
 <li>Set <span class="config">datafname = datafiles/murphy29.rag1rag2.nex</span>
 
 </li><li>Set <span class="config">ofprefix = garli_run1</span>. This will tell the program to begin the name of all output files with "garli_run1...".
@@ -154,14 +154,14 @@ invariantsites = estimates
 </li><li>Run Garli using that configuration file
 <span class="command"> garli garli_ex1.conf</span>
 
-</li></ol>
+</li></ul>
 <p>You will see a bunch of text scroll by, informing you about the data set and the run that is starting. Most of this information is not very important, but if the program stops be sure to read it for any error messages. The output will also contain information about the progress of the initial optimization phase, and as the program runs it will continue to log information to the screen. This output contains the current generation number, current best <i>ln</i>L score, optimization precision and the generation at which the last change in topology occurred.  All of the screen output is also written to a log file that in this case will be named <span class="file">garli_run1.screen.log</span>, so you can come back and look at it later.<br />
 <br /></p>
 
 <strong>Monitoring an ongoing run</strong><br>
 <p>(These are not things that you would normally need to do with your own analyses)</p>
 We will do this just in Garli, because it is more straightforward than monitoring a run in RAxML<br>
-<p><ol>
+<p><ul>
 <li>Look in the <span class="file">MLSearchLab</span> directory, and note the files that have been created by the run.
 </li><li>Open <span class="file">garli_run1.log00.log</span> in a text editor. (Either on the cluster or via Cyberduck.)
 
@@ -174,7 +174,7 @@ This file contains an exact copy of the screen output of the program.  It can be
 Now let's look at the current best topology. This is contained in a file called <span class="file">garli_run1.best.current.tre</span>. This file is updated every <span class="config">saveevery</span> generations, so it is always easy to see the current best tree during a search. (Do not use this as a stopping criterion and kill the run when you like the tree though!) </p>
 
 </li><li>Open <span class="file">garli_run1.best.current.tre</span> in Figtree or another tree viewer and examine the tree. (You may be able to double-click the file and associate <span class="file">.tre</span> files with Figtree.)
-</li></ol>
+</li></ul>
 
 <strong>RAxML</strong><br>
 Now lets run the same analysis in RAxML.
@@ -207,7 +207,7 @@ RAxML will output a bunch of files - we will examine the key ones in exercise 2.
 <p><i>Here are a few things that you wouldn't normally need to look at, but that might help understand how Garli tree search works:</i></p>
 <p>We can examine how the topology and branch lengths changed over the entire run. The <span class="file">garli_run1.rep1.treelog00.tre</span> file contains each successively better scoring topology encountered during the first search replicate. Note that this file can be interesting to look at, but in general will not be very useful to you. The default is for this file to not be created at all. </p>
 
-<ol>
+<ul>
 <li>Open <span class="file">garli_run1.rep1.treelog00.tre</span> in Figtree. (This will require transferring the file to your computer)
 </li><li>Click through all of the trees (using the arrows on the upper right).
 <p>
@@ -224,7 +224,7 @@ r = relative rate matrix
 e = equilibrium frequencies 
 a = alpha shape parameter of gamma rate heterogeneity distribution 
 p = proportion of invariable sites 
-</pre></p></li></ol>
+</pre></p></li></ul>
 <p>
 The config files used here are set up to use a feature of the program that collapses internal branches that have an MLE length of zero. This may result in final trees that have polytomies. This is generally the behavior that one would want. Note that the likelihoods of the trees will be identical whether or not the branches are collapsed. However, this will affect Robinson Foulds distances!</p>
 
@@ -235,7 +235,7 @@ In Garli after each individual replicate finishes, the best trees from all of th
 In RAxML the best trees from the each replicate are saved to <span class="file">RAxML_result.rax01.RUN.0</span> and <span class="file">RAxML_result.rax01.RUN.1</span>. 
 and the best tree is saved to the <span class="file">RAxML.bestree.</span> file.
 </p>
-<ol>
+<ul>
 <p>
 <li>Lets more closely examine our results. </p>
 <p>
@@ -248,21 +248,21 @@ Within each of your analyses, are two possibilities: </p>
 </li>
 </li><li>The search replicates found two different trees. This is almost certainly because one or both were trapped in local topological optima. You will notice that the <i>ln</i>L values are somewhat different and the parameter estimates will be similar but not identical. The search settings may influence whether searches are entrapped in local optima, but generally the default settings are appropriate.
 </li></ul>
-</ol>
+</ul>
 <strong>Comparing outputs</strong><br>
-<ol>
+<ul>
 <li>Did your two Garli replicates find the same tree?
 </li><li>Did your two RAxML replicates find the same tree?
 </li><li>Transfer the best tree from each analysis to your computer, and open them using Figtree. (RAxML_bestTree.rax01 and garli_run1.best.tre)
 </li><li>Are the topologies the same? Are the branch lengths?
 
 </li>
-</ol>
+</ul>
 <p>
 It isn't easy (or reasonable) to check by eye! And because of different choices made in the likelihood computation, the likelihoods are not directly comparable.
 </p>
 <p>
-<ol>
+<ul>
 <li>On the cluster, use the 'treecompare.py' script to compare the differences between the two ML tree estimates. This script relies on <a href="https://www.dendropy.org/">Dendropy</a>, by Sukumaran and Holder to perform tree comparisons.<br></li>
 
 Check out the Robinson Foulds distances between the Garli and RAxML estimates: 
@@ -272,12 +272,12 @@ using <br>
 
 </li><li>What are the RF and weighted RF distances between your two best tree estimates?
 </li>
-</ol>
+</ul>
 
 <p>We can also more thoroughly evaluate and compare the results of our two different searches in PAUP*. 
 Being able to open the results of one program in another for further analysis is a good skill to have. </p>
 
-<p><ol>
+<p><ul>
 <li>In the <span class="file">MLSearchLab</span> directory, execute the <span class="file">datafiles/murphy29.rag1rag2.nex</span> file in PAUP*. (At the command line, type "<span class="command">paup datafiles/murphy29.rag1rag2.nex</span>".)
 
 </li><li> Read your tree estimate from Garli into PAUP. 
@@ -312,7 +312,7 @@ If the trees are different, we can calculate a consensus tree in PAUP* and see e
 This will show a strict consensus and a majority rule consensus. The strict consensus completely collapses branches that conflict, but since GARLI already collapsed zero length branches it is hard to tell where the conflict is. The majority rule consensus will show 50% support for branches that were only found in one tree, but it is not possible to show them all in a single tree. </p>
 
 </li><li> To quit paup type "<span class="command">quit</span>".
-</p></li></ol>
+</p></li></ul>
 </p><p><div class="btop-wrap"><a href="#top" class="btop">back to top</a></div>
 
 <h4 class="heading" id="exercise3">exercise 3: constrain a search</h4>
@@ -324,7 +324,7 @@ The first step in applying one of the topological hypothesis tests is to find th
 <p>
 It is possible to set positive constraints in RAxML, but it is not possible to set negative constraints, so this section we will only use GARLI.
 GARLI allows constraints to be specified in a number of ways. We will do it by specifying inputing a multifurcating tree, with only the bipartition being constrained.
-<ol>
+<ul>
 <li>Use a text editor to open a new text file. 
 
 <p>
@@ -344,7 +344,7 @@ Edit the <span class="file">garli_constraint.conf</span> file and set <span clas
 </li><li>Save the config file.
 </li><li>Run GARLI:
 <span class="command"> garli garli_constrained.conf</span>
-</li></ol>
+</li></ul>
 <p>
 Constrained searches can make searching through treespace more difficult (you can think of it as walls being erected in treespace that make getting from tree X to tree Y more difficult), so you may see that the two constrained search replicates result in very different <i>ln</i>L scores. When the run finishes, note the difference in <i>ln</i>L between the best tree that you found earlier and the best constrained tree. This difference is a measure of how strongly the data support the presence of the (Whale, Hippo) group relative to its absence. Unfortunately we can't simply do a likelihood ratio test here to test for the significance of the difference because we have no expectation for how this test statistic should be distributed under the null hypothesis. That is what the parametric bootstrap, SH or AU test would tell us, but is well beyond the scope of this demo. </p>
 </p>
@@ -361,7 +361,7 @@ THEREFORE: low bootstrap support may be a signal of unreliable relationships, bu
 High bootstrap support suggests that the inferred relationships are not sensitive to your data sampling (very common with genomic data),
 but not that they are correct!
 
-<ol>
+<ul>
 <li>In RAxML we can use the flags '-# &lsaquo;number of bootstrap replicates&rsaquo;', and '-b' &lsaquo;bootstrap random number seed&rsaquo; <br>
 <span class="command"> raxmlHPC -m GTRGAMMAI -p ‹choose a random number seed› -# 100 -b ‹bootstrap random number seed› -s datafiles/murphy29.rag1rag2.fasta -n rax_boot</span><br>
 However, this will take too long to run! Kill this run using Ctrl-C.
@@ -377,7 +377,7 @@ You can open it in figtree - it will ask you what the labels represent. They rep
 <p>
 Other external program can also be used to map bootstrap replicates onto biparitions or estimate consensus trees. 
 Good options are PAUP*, and a nice program called Sumtrees (it requires a Python installation, and is available at <a href="http://pythonhosted.org/DendroPy/programs/sumtrees.html" target="_new">http://pythonhosted.org/DendroPy/programs/sumtrees.html</a>).</p>
-</ol>
+</ul>
 <!--
 <p>Calulate a bootstrap consensus tree from provided boostrap run output using sumtrees.</p>  
 <p>"<span class="command">sumtrees.py --min-clade-freq=0.5 --percentages -d0 -o nucboot.sumtrees nucboot.boot.tre</span>"</p>
@@ -389,13 +389,13 @@ On the left panel of figtree click on the node labels and select bootstrap suppo
 <p>
 -->
 Alternatively, can post-process our bootstrap results using PAUP*. These instructions are listed for your reference, but in the interest of time, skip this section for now. </p>
-<ol>
+<ul>
 <li>Execute the <span class="file">datafiles/murphy29.rag1rag2.nex</span> data in PAUP (type "<span class="command">paup datafiles/murphy29.rag1rag2.nex</span>").
 
 </li><li>In PAUP*, clear any existing trees in memory using "<span class="command">cleartrees</span>"
 </li><li>Load the bootstrap trees with the command "<span class="command">gettrees unrooted file=bootstrap_results/RAxML_bootstrap.rax_boot</span>".
 </li><li>In PAUP*, make the majority rule consensus tree with the command "<span class="command">contree /strict=no majrule=yes LE50=yes grpfreq=no</span>".
-</li></ol>
+</li></ul>
 <p>
 This will display the majority-rule bootstrap consensus tree, including branches appearing in less than 50% of the trees (LE50). You will notice that some parts of the tree are very poorly supported, while others have high support. It is somewhat comforting that the parts of the tree that we know are resolved incorrectly receive low support. This is precisely why phylogenetic estimates MUST be evaluated in light of some measure of confidence, be it bootstrap values or posterior probabilities.
 </p>
@@ -406,7 +406,7 @@ This will display the majority-rule bootstrap consensus tree, including branches
 
 Simulated data can be a great way to investigate model misspecification and biases. This exercise uses a data set simulated on a Felsenstein Zone tree. 
 Data was simulated using <a href="http://tree.bio.ed.ac.uk/software/seqgen/">seq-gen</a>
-<ol>
+<ul>
 <li>
 Many datasets are enriched for variable sites, or include exclusively alignment columns with variable sites, i.e. Single nucleotide polymorphism (SNP) data.
 This is an example of 'ascertainment bias'. The data that you have 'ascertained' and included in your alignment are not a random subset of the genome.
@@ -459,7 +459,7 @@ Is that bipartition in the true tree?<br>
 This is the exact same dataset! If our model of evolution is not appropriate for our data, our results can be systematically biased. Incorrect inferences can have 100% bootstrap support, because sampling across our data does not capture the problem.<br>
 NOTE: The ascertainment bias corrections in RAxML will not run if there are <strong>ANY</strong> invariant columns in your alignment.</p>
 </li>
-</ol>
+</ul>
 
 
 </p>
@@ -475,13 +475,13 @@ Note that although some models such as gamma rate heterogeneity allow variation 
 <strong>Garli</strong><br>
 <p>
 Running a partitioned analysis requires several steps:</p>
-<ol>
+<ul>
 <li>Decide how you want to divide the data up.  By gene and/or by codon position are common choices.
 </li><li>Decide on specific substitution submodels that will be applied to each subset of the data.
 </li><li>Specify the divisions of the data (subsets) using a <span class="command">charpartition</span> command in a NEXUS <span class="command">Sets</span> block in the same file as the alignment.
 </li><li>Configure the proper substitution submodels for each data subset.
 </li><li>Run GARLI.
-</li></ol>
+</li></ul>
 <p>Note that detailed instructions and examples are available on this page of the GARLI wiki:<br /><a href="https://molevol.mbl.edu/index.php/Garli_using_partitioned_models" target="_new"> Using partitioned models</a></p>
 
 <p>
@@ -537,10 +537,10 @@ On to the actual exercise...</p>
 </li><li>In the <span class="file">garli_model_specs.txt</span> file, find the models that appeared for your chosen subsets in the table above. For example, if I was looking to assign a model to rag2 2nd positions, the model from the table would be "TrN+G". Find the line that reads "#TrN+G" and copy the 6 lines below it. Now paste those into the <span class="file">garli.conf</span> file, right below a bracketed [model#] line with the proper model number.
 </li><li>Start partitioned GARLI.
 </li><li>Peruse the output in the <span class="file">.screen.log</span> file, particularly looking at the parameter estimates and likelihood scores. Note the "Subset rate multiplier" parameters, which assign different mean rates to the various subsets.  Note that the likelihood scores of the partitioning scheme that you chose could be compared to the likelihoods of other schemes with the AIC criterion. Details on how to do that appear on the partitioning page of the garli wiki:<br /><a href="https://www.nescent.org/wg_garli/Using_partitioned_models" target="_new">Using partitioned models</a>
-</li></ol>
+</li></ul>
 
 <strong>RAxML</strong><br>
-<ol>
+<ul>
 <li>We can set the same partitioning schemes as described above for Garli, although RAxML only uses GTR as the model for DNA sequence evolution.
 Instead of incorporating the partitioning scheme into the data file, we pass in a text file that describes the partitions using the command line argument -q.
 
@@ -583,7 +583,7 @@ DNA, s6=732-1218\3
 <p>NOTE:Partitioning allows for different rates across genes or sites, but this is still a concatenated analysis. 
 Parameters of the evolutionary model are separately estimated, but they are constrained to the same topology.
 Next week we will discuss genetree-species tree approaches which allow variation in gene tree topologies to inform the species tree. </p>
-</ol>
+</ul>
 
 
 <!--
