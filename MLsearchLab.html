@@ -287,7 +287,7 @@ To read the file into PAUP*, type "<span class="command">gettrees file=garli_run
 Using 'mode=7' will keep your tree from Garli in memory as well.
 To read the file into PAUP*, type "<span class="command">gettrees unrooted mode=7 file=RAxML_bestTree.rax01</span>".)
 
-</li><li> Set your model of evolution to GTR+I+G in PAUP by running "<span class="command">lsc/nst=6 rmat=estimate basefreq=empirical shape=estimate rates=gamma pinv=est</span>"
+</li><li> Set your model of evolution to GTR+I+G in PAUP by running "<span class="command">lset nst=6 rmat=estimate basefreq=empirical shape=estimate rates=gamma pinv=est</span>"
 
 </li><li>In PAUP*, score your two trees by running "<span class="command">lscore</span>".
 
@@ -371,7 +371,7 @@ We can then apply those bootstrap proportions to our best scoring tree from our 
 <span class="command"> raxmlHPC -m GTRGAMMAI -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
 
 </li><li>Look at the file <span class="file">RAxML_bipartitions.boot_bipart</span> 
-You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions.
+You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions. (Although beware - some treeviewers can incorrectly display support labes on nodes, especially following re-rooting. See: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5435079/" target="_new">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5435079/</a>)
 
 </li>
 <p>
@@ -581,7 +581,7 @@ DNA, s6=732-1218\3
 <!--TODO fact check and explain better-->
 </li>
 <p>NOTE:Partitioning allows for different rates across genes or sites, but this is still a concatenated analysis. 
-Parameters of the evolutionary model are separately estimated, but they are constrained to the same topology.
+Parameters of the evolutionary model are separately estimated, but they are constrained to the <b>same topology</b>.
 Next week we will discuss genetree-species tree approaches which allow variation in gene tree topologies to inform the species tree. </p>
 </ul>
 
