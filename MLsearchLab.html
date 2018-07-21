@@ -486,7 +486,7 @@ Running a partitioned analysis requires several steps:</p>
 
 <p>
 On to the actual exercise...</p>
-<p><ol>
+<p><ul>
 <li>In the datafiles directory, open <span class="file">murphy29.rag1rag2.charpart.nex</span> in a text editor. Scroll down to the bottom of the file, where a NEXUS <span class="command">Sets</span> block with a bunch of comments appears. Notice how the <span class="command">charset</span> commands are used to assign names to groups of alignment columns. Notice the <span class="command">charpartition</span> command, which is what tells GARLI how to make the subsets that it will use in the analysis.
 
 </li><li>Decide how you will divide up the data for your partitioned analysis. For this exercise it is up to you. There are a few sample charpartitions that appear in the datafile. If you want to use one of those, remove the bracket comments around it. If you are feeling bold, make up some other partitioning scheme and specify it with a charpartition. Save the file.
@@ -538,6 +538,7 @@ On to the actual exercise...</p>
 </li><li>Start partitioned GARLI.
 </li><li>Peruse the output in the <span class="file">.screen.log</span> file, particularly looking at the parameter estimates and likelihood scores. Note the "Subset rate multiplier" parameters, which assign different mean rates to the various subsets.  Note that the likelihood scores of the partitioning scheme that you chose could be compared to the likelihoods of other schemes with the AIC criterion. Details on how to do that appear on the partitioning page of the garli wiki:<br /><a href="https://www.nescent.org/wg_garli/Using_partitioned_models" target="_new">Using partitioned models</a>
 </li></ul>
+
 
 <strong>RAxML</strong><br>
 <ul>
