@@ -368,7 +368,7 @@ However, this will take too long to run! Kill this run using Ctrl-C.
 
 </li><li>A pre-baked bootstrap run is in the folder 'bootstrap_results'. We will use this one instead.
 We can then apply those bootstrap proportions to our best scoring tree from our first analysis, by using the '-f' flag to select an algorithim. We will use '-f b' to draw bipartition information on a tree, which we provide with the '-t' flag <br>
-<span class="command"> raxmlHPC -m GTRGAMMAI -p ‹choose a random number seed› -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
+<span class="command"> raxmlHPC -m GTRGAMMAI -f b -t RAxML_bestTree.rax01 -z bootstrap_results/RAxML_bootstrap.rax_boot -n boot_bipart</span>
 
 </li><li>Look at the file <span class="file">RAxML_bipartitions.boot_bipart</span> 
 You can open it in figtree - it will ask you what the labels represent. They represent bootstrap proportions. In the view menu on the left in figtree, set the node labels to display bootstrap proportions. (Although beware - some treeviewers can incorrectly display support labes on nodes, especially following re-rooting. See: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5435079/" target="_new">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5435079/</a>)
