@@ -149,7 +149,7 @@ ratehetmodel = gamma
 numratecats = 4
 invariantsites = estimates
 </pre>
-
+<i>We are using empirical base frequencies in order to easilt compare garli and raxml estimates</i>
 </li><li>Save the file
 </li><li>Run Garli using that configuration file
 <span class="command"> garli garli_ex1.conf</span>
@@ -331,7 +331,7 @@ GARLI allows constraints to be specified in a number of ways. We will do it by s
 Constraints can either be positive (MUST be in the inferred tree) or converse (also called negative, CANNOT be in the inferred tree). The constraint type is specified to GARLI by putting a + or - at the start of the constraint string in the constraint file.<br>
 </li><li>On the first line, type a '-' for a negative constraint, and then the string specifying the (Whale, Hippo) grouping 
 <span class="command">-(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,(20,21))</span>
-Rather than having to count the lines in the input nexus file, you can look at your garli_run01.best.tre output from the previous exercise to see that Whale and Hippo are 20 and 21.
+Rather than having to count the lines in the input nexus file, you can look at your garli_run1.best.tre output from the previous exercise to see that Whale and Hippo are 20 and 21.
 Take a look at this constraint tree in Figtree. <!--TODO double check figtree can read, or use copy paste trick!-->
 </p>
 </li><li>Save the file as <span class="file">whippoNegative.txt</span>.
@@ -536,7 +536,7 @@ On to the actual exercise...</p>
 
 </li><li>In the <span class="file">garli_model_specs.txt</span> file, find the models that appeared for your chosen subsets in the table above. For example, if I was looking to assign a model to rag2 2nd positions, the model from the table would be "TrN+G". Find the line that reads "#TrN+G" and copy the 6 lines below it. Now paste those into the <span class="file">garli.conf</span> file, right below a bracketed [model#] line with the proper model number.
 </li><li>Start partitioned GARLI.
-</li><li>Peruse the output in the <span class="file">.screen.log</span> file, particularly looking at the parameter estimates and likelihood scores. Note the "Subset rate multiplier" parameters, which assign different mean rates to the various subsets.  Note that the likelihood scores of the partitioning scheme that you chose could be compared to the likelihoods of other schemes with the AIC criterion. Details on how to do that appear on the partitioning page of the garli wiki:<br /><a href="https://www.nescent.org/wg_garli/Using_partitioned_models" target="_new">Using partitioned models</a>
+</li><li>Peruse the output in the <span class="file">.screen.log</span> file, particularly looking at the parameter estimates and likelihood scores. Note the "Subset rate multiplier" parameters, which assign different mean rates to the various subsets.  Note that the likelihood scores of the partitioning scheme that you chose could be compared to the likelihoods of other schemes with the AIC criterion. Details on how to do that appear on the partitioning page of the garli wiki:<br /><a href="https://molevol.mbl.edu/index.php/Garli_using_partitioned_models" target="_new"> Using partitioned models</a>
 </li></ul>
 </p></p></p></li></ul>
 
