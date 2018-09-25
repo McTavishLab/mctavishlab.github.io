@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Teaching
-permalink: /teaching/
+title: Contact
+permalink: /contact/
 ---
 
-<a class="page-link" href="https://mctavishlab.github.io/GradPhylo/">QSB/ES 244 Phylogenetics</a>  
-Bio 144, Phylogenetics  
-Bio 141, Evolution
-Bio 1, Introductory Biology
 
+
+Emily Jane McTavish  
+<ejmctavish@ucmerced.edu>  
+209-228-3453  
+Assistant Professor, Life and Environmental Sciences  
+School of Natural Sciences  
+University of California, Merced  
+5200 N. Lake Rd, Merced CA 95343  

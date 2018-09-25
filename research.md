@@ -25,7 +25,6 @@ A synthetic
 <a href="http://biorxiv.org/content/biorxiv/early/2016/01/22/037655.full.pdf">Preprint</a>
 
 * ### Automated phylogenetic updating
-<a href="https://github.com/snacktavish/Phycorder">GitHub repo</a>,  
 <a href="https://github.com/snacktavish/Physcraper">GitHub repo</a>,
 <img src="/assets/physcraper.png" alt="Drawing" style="width: 150px;"/>
 
