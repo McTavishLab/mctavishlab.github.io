@@ -4,11 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-<span style="color:red;">Webpage under development</span>
-
-I'm working on phylogenetic methods and genomics.
 My focus is on developing efficient methods that take advantage 
-of the novel information in genomic data.
+of the novel information in large scale data sets.
 
 ## Current projects:
 
@@ -18,7 +15,7 @@ A synthetic
  of all life.
 <img src="/assets/OpenTree-final.png" alt="Drawing" style="width: 150px;"/>
 
-
+<a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>,
 <a href="http://www.pnas.org/content/112/41/12764.abstract">PNAS paper</a>, 
 <a href="https://www.washingtonpost.com/news/speaking-of-science/wp/2015/09/21/this-new-complete-tree-of-life-shows-how-2-3-million-species-are-related/">Washington post article</a>, 
 <a href="https://www.reddit.com/r/askscience/comments/3lxde9/askscience_ama_series_we_are_dr_karen_cranston">Reddit 'Ask-Me-Anything'</a>,
