@@ -4,11 +4,10 @@ title: People
 permalink: /people/
 ---
 ## PI
-
+<img src="/assets/teaching.jpg" alt="Drawing" style="width: 200px;"/>
 * ### Emily Jane McTavish
 Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
 
-<img src="/assets/teaching.jpg" alt="Drawing" style="width: 200px;"/>
 
 
 ## Postdoctoral Researcher
