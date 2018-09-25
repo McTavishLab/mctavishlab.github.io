@@ -1,18 +1,21 @@
 ---
 layout: default
 ---
-## Large scale phylogenetic inference
+## Large scale evolutionary inference
+
+Data that can be used to answer evolutionary questions is being generated on unprecedented scales. <br>
+How can we take advantage of evolutionary information in large data sets,
+in a way that is:  
+* biologically informed
+* statistically rigorous  
+* computationally efficient?  
+
 
 <img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
 
 
 Recent news:  
 <a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>
-
-Research:  
-Phylogenies are essential for biological research. Accurate phylogenetic information is required for
-analyses such as comparative genomics, measuring selection, tracking populations’ geographic spread, and understanding epidemics, among many others. It is not possible to understand evolutionary processes among species or lineages without controlling for their shared histories. Recent advances in genome sequencing technology are providing unprecedented data with which to infer relationships. Theory and methodology in phylogenetics require a concomitant revolution in order to take advantage of these large datasets, novel data types and high rate of data generation. As more genomic data is being generated, we need to combine not only large amounts and kinds of data, but data being generated using a wide variety methods.
-
 
 
 Prospective graduate students should apply through UC Merced's
@@ -25,8 +28,6 @@ Funding and training opportunities also available through
 national research training grant.
 
 
-
-<img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
 
 Emily Jane McTavish  
 <ejmctavish@ucmerced.edu>
