@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-permalink: /teaching/
+permalink: /tutorials/
 ---
 
 <a class="page-link" href="https://mctavishlab.github.io/MLsearchLab">Maximum Likelihood Search Lab</a>  
