@@ -10,9 +10,8 @@ in a way that is:
 * statistically rigorous  
 * computationally efficient?  
 
-
 <img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
-
+McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
 
 Recent news:  
 <a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>
