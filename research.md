@@ -14,7 +14,7 @@ A synthetic
 <a href="https://tree.opentreeoflife.org"> tree</a>
  of all life.
 <img src="/assets/OpenTree-final.png" alt="Drawing" style="width: 150px;"/>
-
+<img src="/assets/bioessayfig.png" alt="Drawing" style="width: 150px;"/>
 <a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>,
 <a href="http://www.pnas.org/content/112/41/12764.abstract">PNAS paper</a>, 
 <a href="https://www.washingtonpost.com/news/speaking-of-science/wp/2015/09/21/this-new-complete-tree-of-life-shows-how-2-3-million-species-are-related/">Washington post article</a>, 

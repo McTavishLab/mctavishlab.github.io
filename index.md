@@ -4,13 +4,13 @@ layout: default
 ## Large scale evolutionary inference
 
 Data that can be used to answer evolutionary questions is being generated on unprecedented scales. <br>
-How can we take advantage of evolutionary information in large data sets,
+How can we take advantage of evolutionary information in large data sets,<br>
 in a way that is:  
 * biologically informed
 * statistically rigorous  
 * computationally efficient?  
 
-<img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/>  
+<img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/>  <br>
 McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
 
 Recent news:  
