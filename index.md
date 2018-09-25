@@ -3,9 +3,13 @@ layout: default
 ---
 ## Large scale phylogenetic inference
 
-
 <img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
 
+
+Recent news:  
+<a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>
+
+Research:  
 Phylogenies are essential for biological research. Accurate phylogenetic information is required for
 analyses such as comparative genomics, measuring selection, tracking populations’ geographic spread, and understanding epidemics, among many others. It is not possible to understand evolutionary processes among species or lineages without controlling for their shared histories. Recent advances in genome sequencing technology are providing unprecedented data with which to infer relationships. Theory and methodology in phylogenetics require a concomitant revolution in order to take advantage of these large datasets, novel data types and high rate of data generation. As more genomic data is being generated, we need to combine not only large amounts and kinds of data, but data being generated using a wide variety methods.
 
