@@ -20,12 +20,12 @@ A synthetic
 <a href="https://www.washingtonpost.com/news/speaking-of-science/wp/2015/09/21/this-new-complete-tree-of-life-shows-how-2-3-million-species-are-related/">Washington post article</a>, 
 <a href="https://www.reddit.com/r/askscience/comments/3lxde9/askscience_ama_series_we_are_dr_karen_cranston">Reddit 'Ask-Me-Anything'</a>,
 
-* ### Testing the effects of choice of reference genome and SNP calling pipleine paramaters on phylogenetic inference.
+* ### Testing the effects of choice of reference genome and SNP calling pipeline parameters on phylogenetic inference.
 <a href="https://github.com/snacktavish/TreeToReads">GitHub repo</a>,
 <a href="http://biorxiv.org/content/biorxiv/early/2016/01/22/037655.full.pdf">Preprint</a>
 
-
 * ### Automated phylogenetic updating
+<a href="https://github.com/snacktavish/Phycorder">GitHub repo</a>,  
 <a href="https://github.com/snacktavish/Physcraper">GitHub repo</a>,
 <img src="/assets/physcraper.png" alt="Drawing" style="width: 150px;"/>
 
