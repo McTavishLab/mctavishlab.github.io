@@ -10,7 +10,7 @@ in a way that is:
 * statistically rigorous  
 * computationally efficient?  
 
-<img src="/assets/teaching.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/>  
 McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
 
 Recent news:  
