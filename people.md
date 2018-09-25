@@ -28,5 +28,5 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
 * Gurshaan Nagra
 
 
-<img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/><br>
 McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
