@@ -17,7 +17,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
 
 ## Graduate Students
 
-* Jasper Toscani-Field
+* Jasper Toscani Field
 * Lesly Lopez
 
 ## Undergraduate Researchers
