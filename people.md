@@ -6,7 +6,8 @@ permalink: /people/
 ## PI
 <img src="/assets/teaching.jpg" alt="Drawing" style="width: 200px;"/>
 * ### Emily Jane McTavish
-Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
+Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-9766-5727" href="https://orcid.org/0000-0001-9766-5727" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-9766-5727</a></div>
 
 
 
