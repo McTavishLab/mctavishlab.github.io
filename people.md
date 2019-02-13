@@ -19,8 +19,8 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
 
 * Jasper Toscani Field
 * Lesly Lopez
-* Yumary Vasquez //
-<img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/> 
+* Yumary Vasquez \\
+<img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/> \\ 
 Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs. 
 
 
