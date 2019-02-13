@@ -18,7 +18,10 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu>
 
 ## Graduate Students
 
-* Jasper Toscani Field
+* Jasper Toscani Field \\
+<img src="/assets/jasper.jpg" alt="Drawing" style="width: 200px;"/><br>
+
+	Jasper is interested in evolutionary dynamics of disease genomics. He currently works on a program that can rapidly update genome-scale phylogenies with new, related taxa. This method is applicable at all scales of phylogenomic analyses but is specifically targeted to updating a large scale phylogeny with many (thousands) of new taxa. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
 * Lesly Lopez
 * Yumary Vasquez \\
 <img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/><br> 
