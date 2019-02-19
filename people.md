@@ -22,7 +22,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Jasper Toscani Field \\
 <img src="/assets/jasper.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-	Jasper is a second year graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He currently works on a program that can rapidly updates genome-scale phylogenies with new, related taxa. This method is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
+	Jasper is a second year graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He currently works on a program that can rapidly update genome-scale phylogenies with new, related taxa. This method is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
 
 * Lesly Lopez \\
 <img src="/assets/Lesly_Lopez_Headshot.png" alt="Drawing" style="width: 200px;"/><br>
