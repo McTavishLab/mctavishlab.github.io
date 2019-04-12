@@ -21,6 +21,11 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 * Jasper Toscani Field
 * Lesly Lopez
+
+
+
+## Previous lab members: 
+## Rotation students
 * Yumary Vasquez \\
 <img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/><br> 
 

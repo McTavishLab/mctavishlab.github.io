@@ -14,6 +14,13 @@ in a way that is:
 McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
 
 *Recent news:*  
+Lesly acheived an Honorable Mention on her NSF GRFP proposal.
+
+
+Jasper recieved NSF funding to head to China for two months this summer, to work on parallelization and supercomputing fro NGS data thorugh
+<a href="https://ires-assure.msu.edu/">IRES ASSURE</a>  
+
+
 <a href="https://news.ucmerced.edu/news/2018/nsf-grant-helps-professor-connect-evolutionary-dots-along-open-tree-life">UC Merced writup of recent Open Tree of life grant</a>
 
 
