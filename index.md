@@ -10,8 +10,8 @@ in a way that is:
 * statistically rigorous  
 * computationally efficient?  
 
-<img src="/assets/labphoto.jpg" alt="Drawing" style="width: 400px;"/>  <br>
-McTavishLab + guide Jackie Shay exploring the Vernal Pools reserve
+<img src="/assets/labphoto.jpg" alt="Drawing" style="width: 600px;"/>  <br>
+
 
 *Recent news:*  
 Lesly acheived an Honorable Mention on her NSF GRFP proposal.
