@@ -13,9 +13,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 ## Postdoctoral Researcher
 
-* [Martha Kandziora](https://blubbundbla.github.io/plantastic/)
-    
-    The key motivation for my research is to understand what drives speciation and how biodiversity is maintained, with a focus on the roles of spatial, historical and ecological processes. I use phylogentic methods to investigate how diversity is generated and maintained mostly focusing on flowering plants. Currently, in the McTavish Lab I program a tool to automatically update phylogenies.
+
 
 ## Graduate Students
 * Jasper Toscani Field \\
@@ -32,6 +30,13 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ## Previous lab members: 
+
+## Postdoctoral Researcher
+
+* [Martha Kandziora](https://blubbundbla.github.io/plantastic/)
+    
+    The key motivation for my research is to understand what drives speciation and how biodiversity is maintained, with a focus on the roles of spatial, historical and ecological processes. I use phylogentic methods to investigate how diversity is generated and maintained mostly focusing on flowering plants. Currently, in the McTavish Lab I program a tool to automatically update phylogenies.
+
 ## Rotation students  
 * Yumary Vasquez \\
 <img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/><br> 
