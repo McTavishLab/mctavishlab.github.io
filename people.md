@@ -50,6 +50,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Ashley Marin
 * Alejandra Morales
 * Gurshaan Nagra
+* Joseline Velasquez
 
 
 <img src="/assets/vernal.jpg" alt="Drawing" style="width: 400px;"/><br>
