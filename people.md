@@ -15,7 +15,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 * Luna L. Sánchez Reyes
 
-Luna started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open sceince movement. Her current work in projects such as `Datelife` and `The Open Tree of Life` focuses on making available scientific information on time of lineage divergence for advancement of Science and Education.
+    Luna started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open sceince movement. Her current work in projects such as `Datelife` and `The Open Tree of Life` focuses on making available scientific information on time of lineage divergence for advancement of Science and Education.
 
 ## Graduate Students
 * Jasper Toscani Field \\
@@ -33,7 +33,7 @@ Luna started her second postdoc at UC Merced in August 2019. She did her PhD at 
 * Joseline Velasquez
 <img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-Joseline is a fifth year student majoring in Biology with human emphasis and Psychology as a separate major. She started in the Lab on the summer of 2019 to work on the gene flow between Indian and Eurpean cattle into African cattle populations, to further understand the domestication process that gave rise to modern cattle. She is learning coding in Python to analyse her huge data sets. She is also passionate about community building so she invests as much time as she can into mentoring lower classman and high school students.
+    Joseline is a fifth year student majoring in Biology with human emphasis and Psychology as a separate major. She started in the Lab on the summer of 2019 to work on the gene flow between Indian and European cattle into African cattle populations, to further understand the domestication process that gave rise to modern cattle. She is learning coding in Python to analyse her huge genomic data sets. She is also passionate about community building so she invests as much time as she can into mentoring lower classman and high school students.
 
 ## Previous lab members: 
 
