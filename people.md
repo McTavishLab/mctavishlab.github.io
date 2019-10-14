@@ -31,6 +31,7 @@ Luna started her second postdoc at UC Merced in August 2019. She did her PhD at 
 ## Undergraduate students
 
 * Joseline Velasquez
+<img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
 
 Joseline is a fifth year student majoring in Biology with human emphasis and Psychology as a separate major. She started in the Lab on the summer of 2019 to work on the gene flow between Indian and Eurpean cattle into African cattle populations, to further understand the domestication process that gave rise to modern cattle. She is learning coding in Python to analyse her huge data sets. She is also passionate about community building so she invests as much time as she can into mentoring lower classman and high school students.
 
