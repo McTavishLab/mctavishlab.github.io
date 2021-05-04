@@ -34,7 +34,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Joseline Velasquez \\
 <img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She will be starting graduate school Fall 2021 at Boston University.  
+    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She recieved an Honorable Mention for 2021 NSF GRFP and will be starting graduate school Fall 2021 at Boston University.  
 
 ## Previous lab members: 
 
