@@ -36,19 +36,25 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
     Joseline is a fifth year student majoring in Biology with human emphasis and Psychology as a separate major. She started in the Lab on the summer of 2019 to work on the gene flow between Indian and European cattle into African cattle populations, to further understand the domestication process that gave rise to modern cattle. She is learning coding in Python to analyse her huge genomic data sets. She is also passionate about community building so she invests as much time as she can into mentoring lower classman and high school students.
 
-## Previous lab members: 
+* Randy Posada \\
+
+
+    Randy began his journey with the McTavish Lab in the summer of 2020  where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Lawrence Livermore Foundation and UC Merced where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team.
+
+
+## Previous lab members:
 
 ### Postdoctoral Researcher
 
 * [Martha Kandziora](https://blubbundbla.github.io/plantastic/)
-    
+
     The key motivation for my research is to understand what drives speciation and how biodiversity is maintained, with a focus on the roles of spatial, historical and ecological processes. I use phylogentic methods to investigate how diversity is generated and maintained mostly focusing on flowering plants. Currently, in the McTavish Lab I program a tool to automatically update phylogenies.
 
 ### Rotation students  
 * Yumary Vasquez \\
-<img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/><br> 
+<img src="/assets/Yumary.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-     Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs. 
+     Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
 
 
 ### Undergraduate Researchers
