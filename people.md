@@ -17,7 +17,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 <img src="/assets/luna-summer.png" alt="Drawing" style="width: 200px;"/><br>
 <img src="/assets/luna-and-custard.png" alt="Drawing" style="width: 200px;"/><br>
 
-    Luna started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as `Datelife` and `The Open Tree of Life` focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the Physcraper Python package software development, a
+    Luna started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as `Datelife` and `The Open Tree of Life` focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a
     tool that establishes interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
 
 ## Graduate Students
@@ -36,7 +36,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Joseline Velasquez \\
 <img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She will be starting graduate school Fall 2021 at Boston University.  
+    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She will be starting graduate school Fall 2021 at Boston University.
 
 ## Previous lab members:
 
