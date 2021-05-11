@@ -43,6 +43,12 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Custard \\
 <img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
 
+* Nova \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+
+* Mia \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+
 ## Previous lab members: 
 
 ### Postdoctoral Researcher
