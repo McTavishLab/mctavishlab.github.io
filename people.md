@@ -30,12 +30,31 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
     Lesly Lopez is a fourth year graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
 
+* Lucia Bazan-Williamson \\
+<img src="/assets/Lucia.png" alt="Drawing" style="width: 200px;"/><br>
+
+    Lucia Bazan-Williamson is a first year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She is going to do an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she will expand her computational skills and learn new genomic analysis techniques.
+
+
 ## Undergraduate students
 
-* Joseline Velasquez \\
+* Joseline Velasquez-Reyes \\
 <img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She will be starting graduate school Fall 2021 at Boston University.
+    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She recieved an Honorable Mention for 2021 NSF GRFP and will be starting graduate school Fall 2021 at Boston University.  
+
+## McTavish Lab Pets
+* Iris \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+
+* Custard \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+
+* Nova \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+
+* Mia \\
+<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
 
 ## Previous lab members:
 
