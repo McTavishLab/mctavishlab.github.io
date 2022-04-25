@@ -9,9 +9,9 @@ permalink: /teaching/
 <div class="boxcontainer">
 <a href="https://mctavishlab.github.io/data-science-research/" class="boxlink">
 <div>
-    <img class="featured-image" src="/assets/data-science-research-flyer.png" />
+    <img class="featured-image" src="/assets/data-science-research-flyer.pdf" />
     <p>
-    Bio course, Data Science Research in Biology
+    Bio course, <br><br>Data Science Research in Biology
     </p>
 </div></a>
 </div>
