@@ -7,11 +7,12 @@ permalink: /teaching/
 <a class="page-link" href="https://mctavishlab.github.io/GradPhylo/">QSB/ES 244 Phylogenetics</a>
 
 <div class="boxcontainer">
-<a href="https://mctavishlab.github.io/data-science-research/" class="boxlink"><div>
-    <p>
-    Bio, Data Science Research in Biology
-    </p>
+<a href="https://mctavishlab.github.io/data-science-research/" class="boxlink">
+<div>
     <img class="featured-image" src="/assets/data-science-research-flyer.png" />
+    <p>
+    Bio course, Data Science Research in Biology
+    </p>
 </div></a>
 </div>
 
