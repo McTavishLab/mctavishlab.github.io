@@ -38,28 +38,25 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 ## Undergraduate students
 
-* Joseline Velasquez-Reyes \\
-<img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
-
-    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She recieved an Honorable Mention for 2021 NSF GRFP and will be starting graduate school Fall 2021 at Boston University.  
 
 * Randy Posada \\
 <img src="/assets/IMG_0208.JPG" alt="Randy" style="width: 200px;"/><br>
 
     Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team. 
 
+
+* Kiana Behestian
+
+
 ## McTavish Lab Pets
-* Iris \\
-<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+* Iris 
 
 * Custard \\
 <img src="/assets/luna-and-custard.png" alt="Luna and Custard" style="width: 200px;"/><br>
 
-* Nova \\
-<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+* Nova 
 
-* Mia \\
-<img src="/assets/" alt="Drawing" style="width: 200px;"/><br>
+* Mia 
 
 
 ## Previous lab members:
@@ -70,20 +67,28 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
     The key motivation for my research is to understand what drives speciation and how biodiversity is maintained, with a focus on the roles of spatial, historical and ecological processes. I use phylogentic methods to investigate how diversity is generated and maintained mostly focusing on flowering plants. Currently, in the McTavish Lab I program a tool to automatically update phylogenies.
 
+
 ### Rotation students
 * Yumary Vasquez \\
 
 <img src="/assets/Yumary.jpg" alt="Yumary" style="width: 200px;"/><br>
 
-     Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
+Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
 
 
 ### Undergraduate Researchers
+
+
+* Joseline Velasquez-Reyes \\
+<img src="/assets/Joseline.jpg" alt="Drawing" style="width: 200px;"/><br>
+
+    Joseline graduated from UC Merced in 2020 with Human Biology & Psychology degrees. She started in the Lab on the summer of 2019 to understand adpative introgression between African, Indicine, and Taurine cattle populations, to further understand the domestication process that gave rise to modern cattle. She recieved an Honorable Mention for 2021 NSF GRFP and will be starting graduate school Fall 2021 at Boston University.  
 
 * Michael Decicco
 * Ashley Marin
 * Alejandra Morales
 * Gurshaan Nagra
+
 
 
 <img src="/assets/vernal.jpg" alt="Vernal Pools" style="width: 400px;"/><br>
