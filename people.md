@@ -16,8 +16,8 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Luna L. Sánchez Reyes \\
 <img src="/assets/luna-summer.png" alt="Luna" style="width: 200px;"/><br>
 
-    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a
-    tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
+    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
+    She just got the first DateLife paper accepted with minor revision in Systematic Biology!!!
 
 ## Graduate Students
 * Jasper Toscani Field \\
@@ -42,21 +42,22 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Randy Posada \\
 <img src="/assets/IMG_0208.JPG" alt="Randy" style="width: 200px;"/><br>
 
-    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team. 
+    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team.
 
 
 * Kiana Behestian
 
 
 ## McTavish Lab Pets
-* Iris 
+* Iris
 
 * Custard \\
+
 <img src="/assets/luna-and-custard.png" alt="Luna and Custard" style="width: 200px;"/><br>
 
-* Nova 
+* Nova
 
-* Mia 
+* Mia
 
 
 ## Previous lab members:
