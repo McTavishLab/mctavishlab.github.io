@@ -31,9 +31,9 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
     Lesly Lopez is a fourth year graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
 
 * Lucia Bazan-Williamson \\
-<img src="/assets/Lucia.png" alt="Drawing" style="width: 200px;"/><br>
+<img src="/assets/Lucia.png" alt="Lucia" style="width: 200px;"/><br>
 
-    Lucia Bazan-Williamson is a first year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She is going to do an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she will expand her computational skills and learn new genomic analysis techniques.
+    Lucia Bazan-Williamson is a third year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She is going to do an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she will expand her computational skills and learn new genomic analysis techniques.
 
 
 ## Undergraduate students
