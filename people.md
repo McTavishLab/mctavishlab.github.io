@@ -20,15 +20,10 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
     tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
 
 ## Graduate Students
-* Jasper Toscani Field \\
-<img src="/assets/jasper.jpg" alt="Jasper" style="width: 200px;"/><br>
-
-    Jasper is beginning his fifth  year as a graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He is the primary author of [Extensiphy](https://github.com/McTavishLab/extensiphy), a program for rapidly updating sequence alignments with whole-genome raw read data. Extensiphy is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper is involved in the NSF Research Traineeship Intelligent Adaptive Systems program and is currently working to investigate the effects of reference bias on guided sequence assembly and phylogenetic estimation. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
-
 * Lesly Lopez \\
 <img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
 
-    Lesly Lopez is a fourth year graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
+    Lesly Lopez is a graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
 
 * Lucia Bazan-Williamson \\
 <img src="/assets/Lucia.png" alt="Drawing" style="width: 200px;"/><br>
@@ -37,15 +32,6 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ## Undergraduate students
-
-
-* Randy Posada \\
-<img src="/assets/IMG_0208.JPG" alt="Randy" style="width: 200px;"/><br>
-
-    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team. 
-
-
-* Kiana Behestian
 
 
 ## McTavish Lab Pets
@@ -60,6 +46,13 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ## Previous lab members:
+### Graduate student
+
+* Jasper Toscani Field \\
+<img src="/assets/jasper.jpg" alt="Jasper" style="width: 200px;"/><br>
+    PhD 2022
+    Jasper is beginning his fifth  year as a graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He is the primary author of [Extensiphy](https://github.com/McTavishLab/extensiphy), a program for rapidly updating sequence alignments with whole-genome raw read data. Extensiphy is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper is involved in the NSF Research Traineeship Intelligent Adaptive Systems program and is currently working to investigate the effects of reference bias on guided sequence assembly and phylogenetic estimation. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
+
 
 ### Postdoctoral Researcher
 
@@ -73,10 +66,21 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 <img src="/assets/Yumary.jpg" alt="Yumary" style="width: 200px;"/><br>
 
-Yumary Vasquez is a first year graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
+Yumary Vasquez a graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
 
 
 ### Undergraduate Researchers
+
+
+* Randy Posada \\
+<img src="/assets/IMG_0208.JPG" alt="Randy" style="width: 200px;"/><br>
+    In Fall 2021, Randy started a graduate program in Veterinary Medicine at UNiveristy of Arizona.
+
+    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team. 
+
+
+* Kiana Behestian
+    In Fall 2021, Kiana started a masters of public health program at Brown.
 
 
 * Joseline Velasquez-Reyes \\
