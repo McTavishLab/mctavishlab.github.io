@@ -63,6 +63,12 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ### Rotation students
+* Shayna Bennett\\
+
+<img src="/assets/Bennett.jpg" alt="Shayna" style="width: 200px;"/><br>
+
+Shayna Bennett is a first year graduate student in the Quantitative and Systems Biology program.  She holds B.S. degrees in Environmental Science and Mathematics from Johnson State College and a M.S. in Applied Mathematics from the University of California, Merced. Shayna is interested in studying bacteria and bacteriophage evolution using both wet lab and computational methods. 
+
 * Yumary Vasquez \\
 
 <img src="/assets/Yumary.jpg" alt="Yumary" style="width: 200px;"/><br>
