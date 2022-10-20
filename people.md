@@ -16,8 +16,8 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Luna L. Sánchez Reyes \\
 <img src="/assets/luna-summer.png" alt="Luna" style="width: 200px;"/><br>
 
-    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a
-    tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
+    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
+    She just got the first DateLife paper accepted with minor revision in Systematic Biology!!!
 
 ## Graduate Students
 * Lesly Lopez \\
@@ -35,14 +35,15 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ## McTavish Lab Pets
-* Iris 
+* Iris
 
 * Custard \\
+
 <img src="/assets/luna-and-custard.png" alt="Luna and Custard" style="width: 200px;"/><br>
 
-* Nova 
+* Nova
 
-* Mia 
+* Mia
 
 
 ## Previous lab members:
