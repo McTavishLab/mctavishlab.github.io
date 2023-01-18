@@ -30,6 +30,10 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
     Lucia Bazan-Williamson is a first year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She is going to do an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she will expand her computational skills and learn new genomic analysis techniques.
 
+    * Josue Duque \\
+    <img src="/assets/Josue.jpg" alt="Josue" style="width: 200px;"/><br>
+
+        Josue is a first year graduate student in Quantitative and Systems Biology program. He is interested broadly in the leveraging and development of computational tools and omics datasets to excavate at the evolutionary and ecological undercurrents driving and constraining variation.
 
 ## Undergraduate students
 
@@ -67,7 +71,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 <img src="/assets/Bennett.jpg" alt="Shayna" style="width: 200px;"/><br>
 
-Shayna Bennett is a first year graduate student in the Quantitative and Systems Biology program.  She holds B.S. degrees in Environmental Science and Mathematics from Johnson State College and a M.S. in Applied Mathematics from the University of California, Merced. Shayna is interested in studying bacteria and bacteriophage evolution using both wet lab and computational methods. 
+Shayna Bennett is a first year graduate student in the Quantitative and Systems Biology program.  She holds B.S. degrees in Environmental Science and Mathematics from Johnson State College and a M.S. in Applied Mathematics from the University of California, Merced. Shayna is interested in studying bacteria and bacteriophage evolution using both wet lab and computational methods.
 
 * Yumary Vasquez \\
 
@@ -83,7 +87,7 @@ Yumary Vasquez a graduate student in the Quantitative and Systems Biology progra
 <img src="/assets/IMG_0208.JPG" alt="Randy" style="width: 200px;"/><br>
     In Fall 2021, Randy started a graduate program in Veterinary Medicine at UNiveristy of Arizona.
 
-    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team. 
+    Randy began his journey with the McTavish Lab in the summer of 2020 where he finalized a reproducible data report for the entire phylogeny of the family of bats (Chiroptera). This report is available online as an R vignette on [Randy’s website](https://randyposada4.github.io/bats/articles/report3.html). Randy currently explores methods of reproducible research and learns skills in high-level language programs such as R and Python. He is also engaged with the Open Tree of Life project (OTOL) where he curates published dated phylogenies (chronograms) for various organisms such as birds, flowering plants, and butterflies. Randy was recently awarded a Fellowship from the Livermore Lab Foundation in partnership with Lawrence Livermore National Laboratory, where he will further his data science skills working alongside nationally recognized scientists on the target identification/COVID-19 research team.
 
 
 * Kiana Behestian
