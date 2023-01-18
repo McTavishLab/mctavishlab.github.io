@@ -33,7 +33,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
     * Josue Duque \\
     <img src="/assets/Josue.jpg" alt="Josue" style="width: 200px;"/><br>
 
-        Josue is a first year graduate student in Quantitative and Systems Biology program. He is interested broadly in the leveraging and development of computational tools and omics datasets to excavate at the evolutionary and ecological undercurrents driving and constraining variation.
+        Josue is a first year graduate student in Quantitative and Systems Biology program. He is interested broadly in the leveraging and development of computational tools and omics datasets to investigate the evolutionary and ecological undercurrents driving and constraining variation.
 
 ## Undergraduate students
 
