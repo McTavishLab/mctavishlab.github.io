@@ -14,14 +14,16 @@ in a way that is:
 
 
 *Recent news*
+Lesly successfully defends her thesis and graduates from the McTavish Lab. Congratulations Dr. Lopez Fang!
+
+Jasper successfully defends his thesis and graduates from the McTavish Lab. Congratulations Dr. Toscani Field!
 
 Datelife is up on CRAN! (https://cran.r-project.org/web/packages/datelife/index.html)
 
+*Old news:*
 Kiana and Randy graduated and are both headed to grad school in the fall! Congrats!!
 
 Lesly submitted her D+ paper! [BioRxiv link](https://www.biorxiv.org/content/10.1101/2022.03.21.485082v1)
-
-*Old news:*
 
 Physcraper is published in [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04274-6) and the package accepted into [PyOpenSci](https://www.pyopensci.org/python-packages/)!
 
