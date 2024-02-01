@@ -12,7 +12,7 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 ## Graduate Students
 
 * Lucia Bazan-Williamson \\
-<img src="/assets/Lucia.png" alt="Drawing" style="width: 200px;"/><br>
+<img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
 
     Lucia Bazan-Williamson is a fourth year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes.
   
