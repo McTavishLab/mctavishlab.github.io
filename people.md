@@ -12,9 +12,7 @@ GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 
-
 ## Graduate Students
-
 
 * Lucia Bazan-Williamson \\
 <img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
