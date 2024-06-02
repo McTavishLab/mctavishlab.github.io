@@ -15,9 +15,14 @@ in a way that is:
 
 *Recent news*
 
-Lesly's D+ paper was published in PLoS Genetics [Leveraging shared ancestral variation to detect local introgression](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010155)
+DateLife published in Syst Bio [DateLife: Leveraging Databases and Analytical Tools to Reveal the Dated Tree of Life ](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syae015/7632550)
 
 Bird tree paper posted on BioRXiV [A complete and dynamic tree of birds](https://www.biorxiv.org/content/10.1101/2024.05.20.595017v1)
+
+Preprint on with Jialiang Guo and James Rosindell, [Phylogenetic Diversity Across the Complete Tree of Life](https://www.researchsquare.com/article/rs-4397985/v1)
+
+
+Lesly's D+ paper was published in PLoS Genetics [Leveraging shared ancestral variation to detect local introgression](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010155)
 
 *Old news:*
 Lesly successfully defends her thesis and graduates from the McTavish Lab. Congratulations Dr. Lopez Fang!
