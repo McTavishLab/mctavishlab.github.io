@@ -2,7 +2,7 @@
 title: McTavish lab at UC Merced
 email: ejmctavish@ucmerced.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Assistant Professor, UC Merced 
+  Associate Professor, UC Merced 
 # baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://McTavishlab.github.io" # the base hostname & protocol for your site
 twitter_username: snacktavish
