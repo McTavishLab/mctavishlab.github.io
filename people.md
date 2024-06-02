@@ -6,32 +6,22 @@ permalink: /people/
 ## PI
 <img src="/assets/teaching.jpg" alt="Emily Jane" style="width: 200px;"/>
 * ### Emily Jane McTavish
-Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
+GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-9766-5727" href="https://orcid.org/0000-0001-9766-5727" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-9766-5727</a></div>
 
 
 
-## Postdoctoral Researchers
 
-* Luna L. Sánchez Reyes \\
-<img src="/assets/luna-summer.png" alt="Luna" style="width: 200px;"/><br>
-
-    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a
-    tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
 
 ## Graduate Students
-* Lesly Lopez \\
-<img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
-
-    Lesly Lopez is a graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
+* Josue Duque\\
 
 * Lucia Bazan-Williamson \\
 <img src="/assets/Lucia.png" alt="Drawing" style="width: 200px;"/><br>
 
-    Lucia Bazan-Williamson is a first year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She is going to do an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she will expand her computational skills and learn new genomic analysis techniques.
+    Lucia Bazan-Williamson is a graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
 
 
-## Undergraduate students
 
 
 ## McTavish Lab Pets
@@ -46,7 +36,12 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ## Previous lab members:
-### Graduate student
+
+### Graduate students
+* Lesly Lopez-Fang \\
+<img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
+
+    Lesly Lopez-Fang graduated in May 2023. Her PhD work was published in PLoS Genetics. 
 
 * Jasper Toscani Field \\
 <img src="/assets/jasper.jpg" alt="Jasper" style="width: 200px;"/><br>
@@ -54,7 +49,14 @@ Twitter: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
     Jasper is beginning his fifth  year as a graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He is the primary author of [Extensiphy](https://github.com/McTavishLab/extensiphy), a program for rapidly updating sequence alignments with whole-genome raw read data. Extensiphy is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper is involved in the NSF Research Traineeship Intelligent Adaptive Systems program and is currently working to investigate the effects of reference bias on guided sequence assembly and phylogenetic estimation. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
 
 
-### Postdoctoral Researcher
+### Postdoctoral Researchers
+
+* Luna L. Sánchez Reyes \\
+<img src="/assets/luna-summer.png" alt="Luna" style="width: 200px;"/><br>
+
+    [Luna](https://www.lunasare.com/) started her second postdoc at UC Merced in August 2019. She did her PhD at UNAM with Susana Magallón, focusing on the understanding and testing of methods to estimate species diversification processes using a wide range of organisms as models of study. She is widely intertested in science communication and is an active participant of the open science movement. Her current work in projects such as [Phylotastic](https://github.com/phylotastic), [DateLife](https://github.com/phylotastic/datelife) and [The Open Tree of Life](https://github.com/OpenTreeOfLife) focuses on making available scientific information on time of lineage divergence for easy reuse and reanalysis in Science and Education. She has been working on the [Physcraper](https://physcraper.readthedocs.io/en/stable/) Python package software development, a
+    tool that establishes an interoperability framework for biological databases, to continually update and enrich existing expert phylogenetic data with public DNA sequence data from more taxa.
+
 
 * [Martha Kandziora](https://blubbundbla.github.io/plantastic/)
 
@@ -70,6 +72,8 @@ Yumary Vasquez a graduate student in the Quantitative and Systems Biology progra
 
 
 ### Undergraduate Researchers
+
+* James Waterford
 
 
 * Randy Posada \\
