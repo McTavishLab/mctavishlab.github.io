@@ -18,8 +18,7 @@ GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 <img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
 
     Lucia Bazan-Williamson is a graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
-    Lucia Bazan-Williamson is a fourth year graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes.
-  
+    
 * Josue Duque \\
 <img src="/assets/Josue.jpg" alt="Josue" style="width: 200px;"/><br>
     Josue is a graduate student in Quantitative and Systems Biology program. He is interested broadly in the leveraging and development of computational tools and omics data sets to investigate the evolutionary undercurrents driving and constraining variation.
