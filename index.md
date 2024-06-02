@@ -14,19 +14,21 @@ in a way that is:
 
 
 *Recent news*
+
 Lesly's D+ paper was published in PLoS Genetics [Leveraging shared ancestral variation to detect local introgression](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010155)
 
 Bird tree paper posted on BioRXiV [A complete and dynamic tree of birds](https://www.biorxiv.org/content/10.1101/2024.05.20.595017v1)
 
-
-
 *Old news:*
+Lesly successfully defends her thesis and graduates from the McTavish Lab. Congratulations Dr. Lopez Fang!
+
+Jasper successfully defends his thesis and graduates from the McTavish Lab. Congratulations Dr. Toscani Field!
+
 Datelife is up on CRAN! (https://cran.r-project.org/web/packages/datelife/index.html)
 
 Kiana and Randy graduated and are both headed to grad school in the fall! Congrats!!
 
 Lesly submitted her D+ paper! [BioRxiv link](https://www.biorxiv.org/content/10.1101/2022.03.21.485082v1)
-
 
 Physcraper is published in [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04274-6) and the package accepted into [PyOpenSci](https://www.pyopensci.org/python-packages/)!
 
