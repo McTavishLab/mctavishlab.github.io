@@ -25,7 +25,7 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 ## McTavish Lab Pets
 * Iris
 
-* Custard \\
+* Custard 
 
 <img src="/assets/luna-and-custard.png" alt="Luna and Custard" style="width: 200px;"/><br>
 
@@ -42,21 +42,22 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 ### Graduate students
 
 
-* Lucia Bazan-Williamson \\
+* Lucia Bazan-Williamson   
 <img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
-
+    PhD 2025  
     Lucia Bazan-Williamson graduated with her PhD in Quantitative and Systems Biology in 2025. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
 
-* Lesly Lopez-Fang \\
+* Lesly Lopez-Fang  
 <img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
-    PhD 2023
+    PhD 2023  
     Her PhD work was published in [PLoS Genetics](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010155).  
-    She was involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the 
+    She was supported in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the 
 
-* Jasper Toscani Field \\
+* Jasper Toscani Field  
 <img src="/assets/jasper.jpg" alt="Jasper" style="width: 200px;"/><br>
-    PhD 2022
-    Jasper was graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He is the primary author of [Extensiphy](https://github.com/McTavishLab/extensiphy), a program for rapidly updating sequence alignments with whole-genome raw read data. Extensiphy is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper is involved in the NSF Research Traineeship Intelligent Adaptive Systems program and is currently working to investigate the effects of reference bias on guided sequence assembly and phylogenetic estimation. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
+    PhD 2022  
+    Jasper was graduate student in Quantitative and Systems Biology. He is interested in evolutionary dynamics of disease genomics and what we're actually doing with all the biological sequence data we generate. He is the primary author of [Extensiphy](https://github.com/McTavishLab/extensiphy), a program for rapidly updating sequence alignments with whole-genome raw read data. Extensiphy is being applied to gonorrhea data in collaboration with the U.S. Centers for Disease Control and Prevention. Jasper is involved in the NSF Research Traineeship Intelligent Adaptive Systems program and is currently working to investigate the effects of reference bias on guided sequence assembly and phylogenetic estimation. Jasper recieved NSF funding to head to China for two months in summer 2019, to work on parallelization and supercomputing for NGS data thorugh
+<a href="https://ires-assure.msu.edu/">IRES ASSURE</a>. Jasper previously worked on the phylogenomics of avian blood parasites at San Francisco State University.
 
 
 ### Postdoctoral Researchers
@@ -72,24 +73,9 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
     The key motivation for my research is to understand what drives speciation and how biodiversity is maintained, with a focus on the roles of spatial, historical and ecological processes. I use phylogentic methods to investigate how diversity is generated and maintained mostly focusing on flowering plants. Currently, in the McTavish Lab I program a tool to automatically update phylogenies.
 
 
-### Rotation students
-* Shayna Bennett  
-
-<img src="/assets/Bennett.jpg" alt="Shayna" style="width: 200px;"/><br>
-
-Shayna Bennett is a first year graduate student in the Quantitative and Systems Biology program.  She holds B.S. degrees in Environmental Science and Mathematics from Johnson State College and a M.S. in Applied Mathematics from the University of California, Merced. Shayna is interested in studying bacteria and bacteriophage evolution using both wet lab and computational methods.
-
-* Yumary Vasquez  
-
-<img src="/assets/Yumary.jpg" alt="Yumary" style="width: 200px;"/><br>
-
-Yumary Vasquez a graduate student in the Quantitative and Systems Biology program. She is broadly interested in computational biology and evolution. Her system of choice is insects because of the amazing evolutionary work that can be studied, but she personally hates bugs.
-
-
 ### Undergraduate Researchers
 
 * James Waterford
-    
 
 
 * Randy Posada \\
