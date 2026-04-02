@@ -14,11 +14,11 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 ## Graduate Students
 
-* Lucia Bazan-Williamson \\
-<img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
+* Jimmy Choi \\
+<img src="/assets/jimmy_headshot.jpg" alt="Drawing" style="width: 200px;"/><br>
 
-    Lucia Bazan-Williamson graduated with her PhD in Quantitative and Systems Biology in 2025. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
-    
+    Jimmy Choi is a PhD student in the McTavish Lab, broadly interested in how input data affects phylogenetic
+    inference & how differences in trees affect the results of phylogenetic comparative methods. He is also interested in how ecological/environmental factors influence evolution, and tracking these dynamics in vertebrates (e.g. mammals, birds, fish, but I'm not very picky!). 
 
 
 
