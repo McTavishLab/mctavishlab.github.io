@@ -14,6 +14,12 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 ## Graduate Students
 
+* Jimmy Choi \\
+<img src="/assets/jimmy_headshot.jpg" alt="Drawing" style="width: 200px;"/><br>
+
+    Jimmy Choi is a PhD student in the McTavish Lab, broadly interested in how input data affects phylogenetic
+    inference & how differences in trees affect the results of phylogenetic comparative methods. He is also interested in how ecological/environmental factors influence evolution, and tracking these dynamics in vertebrates (e.g. mammals, birds, fish, but I'm not very picky!). 
+
 
 
 ## McTavish Lab Pets
@@ -27,6 +33,9 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 * Mia
 
+* Riley
+
+<img src="/assets/riley.jpg" alt="Riley!" style="width: 200px;"/><br>
 
 ## Previous lab members:
 
