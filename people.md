@@ -33,6 +33,9 @@ GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 * Mia
 
+* Riley
+
+<img src="/assets/riley.jpg" alt="Riley!" style="width: 200px;"/><br>
 
 ## Previous lab members:
 
