@@ -6,7 +6,7 @@ permalink: /people/
 ## PI
 <img src="/assets/teaching.jpg" alt="Emily Jane" style="width: 200px;"/>
 * ### Emily Jane McTavish
-GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
+GitHub: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-9766-5727" href="https://orcid.org/0000-0001-9766-5727" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-9766-5727</a></div>
 
 
@@ -17,11 +17,8 @@ GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 * Lucia Bazan-Williamson \\
 <img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
 
-    Lucia Bazan-Williamson is a graduate student in Quantitative and Systems Biology. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
+    Lucia Bazan-Williamson graduated with her PhD in Quantitative and Systems Biology in 2025. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
     
-* Josue Duque \\
-<img src="/assets/Josue.jpg" alt="Josue" style="width: 200px;"/><br>
-    Josue is a graduate student in Quantitative and Systems Biology program. He is interested broadly in the leveraging and development of computational tools and omics data sets to investigate the evolutionary undercurrents driving and constraining variation.
 
 
 
@@ -40,16 +37,19 @@ GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 ## Previous lab members:
 
 ### Graduate students
+
+
+* Lucia Bazan-Williamson \\
+<img src="/assets/Lucia_updated.jpeg" alt="Drawing" style="width: 200px;"/><br>
+
+    Lucia Bazan-Williamson graduated with her PhD in Quantitative and Systems Biology in 2025. She is interested in the generation of statistic methods to a better understanding of evolution and gene expression in human structural variation between populations and their connection to differential health outcomes. She did an internship in Joint Genome Institute (JGI), at Lawrence Berkeley National Laboratory, where she expanded her computational skills and learn new genomic analysis techniques.
+
 * Lesly Lopez-Fang \\
 <img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
-
-    Lesly Lopez-Fang graduated in May 2023. Her PhD work was published in PLoS Genetics. 
-
-* Lesly Lopez \\
-<img src="/assets/Lesly_Lopez_Headshot.png" alt="Lesly" style="width: 200px;"/><br>
     PhD 2023
-    Lesly Lopez is a graduate student in Quantitative and Systems Biology. She is involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the performance of these methods.
-  
+    Her PhD work was published in [PLoS Genetics](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010155).  
+    She was involved in the NRT Training Program in Intelligent Adaptive Systems at UC Merced. She is interested in the development and application of statistical methods to detect gene flow, specifically localized gene flow. She also studies assessing biases that could affect the 
+
 * Jasper Toscani Field \\
 <img src="/assets/jasper.jpg" alt="Jasper" style="width: 200px;"/><br>
     PhD 2022
@@ -70,13 +70,13 @@ GitHubr: @snacktavish, Email: <ejmctavish@ucmerced.edu><br>
 
 
 ### Rotation students
-* Shayna Bennett\\
+* Shayna Bennett  
 
 <img src="/assets/Bennett.jpg" alt="Shayna" style="width: 200px;"/><br>
 
 Shayna Bennett is a first year graduate student in the Quantitative and Systems Biology program.  She holds B.S. degrees in Environmental Science and Mathematics from Johnson State College and a M.S. in Applied Mathematics from the University of California, Merced. Shayna is interested in studying bacteria and bacteriophage evolution using both wet lab and computational methods.
 
-* Yumary Vasquez \\
+* Yumary Vasquez  
 
 <img src="/assets/Yumary.jpg" alt="Yumary" style="width: 200px;"/><br>
 
